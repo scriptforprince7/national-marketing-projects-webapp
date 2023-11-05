@@ -15,7 +15,7 @@
 	<stop  offset="0.5559" style="stop-color:#C4056B"/>
 	<stop  offset="0.6623" style="stop-color:#D80568"/>
 	<stop  offset="0.7691" style="stop-color:#E40567"/>
-	<stop  offset="0.8773" style="stop-color:#E80566"/>
+	<stop  offset="0.8773" style="stop-color:#094571"/>
 </linearGradient>
 <path fill="url(#SVGID_1_)" d="M-31.348-2.196c0,0-76.683,169.551,162.036,115.412c238.716-54.142,201.72,20.56,169.527,58.284
 	c-34.889,40.874-81.486,65.666-77.27,106.125c5.501,52.979,115.086,54.886,207.105,88.632
@@ -29,7 +29,7 @@
 	<stop  offset="0.5138" style="stop-color:#BE056C;stop-opacity:0.8308"/>
 	<stop  offset="0.6864" style="stop-color:#D50568;stop-opacity:0.8926"/>
 	<stop  offset="0.8478" style="stop-color:#E30567;stop-opacity:0.9503"/>
-	<stop  offset="0.9866" style="stop-color:#E80566"/>
+	<stop  offset="0.9866" style="stop-color:#094571"/>
 </linearGradient>
 <path fill="url(#SVGID_2_)" d="M849.916-2.196c0,0-213.198-10.529-251.19,122.458c-41.396,144.927,90.919,260.751,135.814,227.505
 	c44.895-33.247,46.9-78.514-22.97-108.364c-69.871-29.847-62.796-121.794,89.963-98.828
