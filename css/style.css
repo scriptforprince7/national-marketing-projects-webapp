@@ -228,6 +228,7 @@ strong, b {
 
 .gradient-bg {
     background: linear-gradient(75deg, #65258a 10%, #e80566) !important;
+    width: 100%;
 }
 
 .white-bg {
