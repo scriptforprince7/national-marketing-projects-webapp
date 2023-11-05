@@ -118,3 +118,52 @@ filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#833ab4",endCo
 } */
 
 
+
+
+/* VIDEO BANNER  */
+
+
+.filler-padding {
+    margin-top: 70px;
+}
+
+
+.video-section-bg {
+    background-color: rgb(180, 208, 0);
+}
+
+.hero-text-card {
+    padding: 30px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 50px;
+}
+
+/* .hero-text-card p {
+
+} */
+
+.video-card video {
+    height: 100%;
+    border-radius: 50px;
+    max-width: 100%;
+}
+
+
+
+.video-button-container {
+    position: absolute;
+    padding: 5px;
+    bottom: 25%;
+    left: 20%;
+    height: 50px;
+    width: 50px;
+    border: 1px solid transparent;
+    background-color: rgba(255, 255, 255, 0.573);
+    color: rgb(255, 255, 255);
+    border-radius: 50px;
+}
+
+
+.video-button-container img {
+    height: 100%;
+}
