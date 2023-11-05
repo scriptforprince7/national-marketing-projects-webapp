@@ -77,13 +77,24 @@
     <div class="main">
 
         <!--hero section start-->
-        <section class="ptb-70 gradient-bg">
-            <div class="container">
+        <section class="filler-padding  ptb-70 video-section-bg">
+            <div class="container-fluid">
                 <div class="row align-items-center">
+                    <!-- <div class=""></div> -->
+                    <div class="col-md-12 col-lg-7">
+                        <div class="image-wrap pt-4">
+                            <div class="video-card">
+                                <video poster="./video/video-banner.png" src="video/227f0bd22075cbbe7b1261cba00016cce67f42f0.mp4" id="bannerVideo"></video>
+                            </div>
+                        </div>
+                        <div class="video-button-container">
+                            <img src="./img/icons/play-button.png" height="250" id="playPauseButton" alt="Play Button">
+                        </div>
+                    </div>
                     <div class="col-md-12 col-lg-5">
-                        <div class="hero-slider-content text-white pt-5">
+                        <div class="hero-text-card hero-slider-content pt-5">
                             <strong>Digital Marketing</strong>
-                            <h1 class="text-white">Grow Your Business With DigiMark</h1>
+                            <h1>Grow Your Business With DigiMark</h1>
                             <p class="lead">Holisticly procrastinate mission-critical convergence with reliable customer
                                 service. Assertively underwhelm for impactful solutions. </p>
                             <div class="action-btns mt-3">
@@ -91,13 +102,26 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-12 col-lg-7">
-                        <div class="image-wrap pt-4">
-                            <div class="video-card">
-                                <video autoplay full controls src="video/227f0bd22075cbbe7b1261cba00016cce67f42f0.mp4" class="img-fluid " alt="hero" />
-                            </div>
-                        </div>
-                    </div>
+
+                    <script>
+                        const video = document.getElementById("bannerVideo");
+                        const playPauseButton = document.getElementById("playPauseButton");
+                        let isPlaying = false;
+
+                        playPauseButton.addEventListener("click", () => {
+                            if (isPlaying) {
+                                video.pause();
+                                playPauseButton.src = "./img/icons/play-button.png"; // Set the image to the play icon
+                                // playPauseButton.width = "100";
+                                isPlaying = false;
+                            } else {
+                                video.play();
+                                playPauseButton.src = "./img/icons/pause-button.png"; // Set the image to the pause icon
+                                // playPauseButton.width = "100";
+                                isPlaying = true;
+                            }
+                        });
+                    </script>
                 </div>
             </div>
         </section>
