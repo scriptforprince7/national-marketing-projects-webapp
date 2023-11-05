@@ -1,7 +1,7 @@
 <!doctype html>
 <html lang="en">
 
-<!-- Mirrored from digimark.themetags.com/index.html by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 02 Nov 2023 12:08:40 GMT -->
+<!-- Mirrored from digimark.themetags.com/index-4.html by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 02 Nov 2023 12:06:10 GMT -->
 
 <head>
     <meta charset="utf-8">
@@ -22,7 +22,7 @@
     <meta property="og:type" content="article" />
 
     <!--title-->
-    <title>National Marketing Projects Inc</title>
+    <title>DigiMark Digital Marketing and Agency HTML Template</title>
 
     <!--favicon icon-->
     <link rel="icon" href="img/favicon.png" type="image/png" sizes="16x16">
@@ -49,9 +49,6 @@
     <link rel="stylesheet" href="css/style.css">
     <!--responsive css-->
     <link rel="stylesheet" href="css/responsive.css">
-    <!--custom css-->
-    <link rel="stylesheet" href="css/custom.css">
-
 
 </head>
 
@@ -70,31 +67,106 @@
     <!--loader end-->
 
     <!--header section start-->
-    <?php include 'includes/header.php' ?>
+    <header class="header">
+        <!--start navbar-->
+        <nav class="navbar navbar-expand-lg custom-nav-3 fixed-top">
+            <div class="container">
+                <a class="navbar-brand" href="index.html">
+                    <img src="img/logo-color.png" alt="logo" class="img-fluid" />
+                </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="ti-menu"></span>
+                </button>
+                <div class="collapse navbar-collapse h-auto" id="navbarSupportedContent">
+                    <ul class="navbar-nav ml-auto menu">
+                        <li><a href="#" class="dropdown-toggle"> Home</a>
+                            <ul class="sub-menu">
+                                <li><a href="index.html">Home Page 01</a></li>
+                                <li><a href="index-2.html">Home Page 02</a></li>
+                                <li><a href="index-3.html">Home Page 03</a></li>
+                                <li><a href="index-4.html">Home Page 04</a></li>
+                                <li><a href="index-5.html">Home Page 05</a></li>
+                                <li><a href="index-6.html">Home Page 06</a></li>
+                                <li><a href="index-7.html">Home Page 07 <span class="badge badge-warning ml-2">New</span></a></li>
+                            </ul>
+                        </li>
+                        <li><a href="about-us.html">About Us</a></li>
+                        <li><a href="#" class="dropdown-toggle">Pages</a>
+                            <ul class="sub-menu">
+                                <li><a href="#" class="dropdown-toggle-inner">Login & Sign Up</a>
+                                    <ul class="sub-menu">
+                                        <li><a href="basic-login.html">Login Page 1</a></li>
+                                        <li><a href="login.html">Login Page 2</a></li>
+                                        <li><a href="basic-sign-up.html">Signup Page 1</a></li>
+                                        <li><a href="sign-up.html">Signup Page 2</a></li>
+                                        <li><a href="password-reset.html">Reset Password</a></li>
+                                        <li><a href="change-password.html">Change Password</a></li>
+                                    </ul>
+                                </li>
+                                <li><a href="#" class="dropdown-toggle-inner">Utilities</a>
+                                    <ul class="sub-menu">
+                                        <li><a href="download.html">Download Page</a></li>
+                                        <li><a href="review.html">Review Page</a></li>
+                                        <li><a href="faq.html">FAQ Page</a></li>
+                                        <li><a href="404.html">404 Page</a></li>
+                                        <li><a href="coming-soon.html">Coming Soon</a></li>
+                                        <li><a href="thank-you.html">Thank You Page</a></li>
+                                    </ul>
+                                </li>
+                                <li><a href="#" class="dropdown-toggle-inner">Team</a>
+                                    <ul class="sub-menu">
+                                        <li><a href="team.html">Our Team Members</a></li>
+                                        <li><a href="team-single.html">Team Member Profile</a></li>
+                                    </ul>
+                                </li>
+                                <li><a href="#" class="dropdown-toggle-inner">Our Blog</a>
+                                    <ul class="sub-menu">
+                                        <li><a href="blog-default.html">Blog Grid</a></li>
+                                        <li><a href="blog-no-sidebar.html">Blog No Sidebar</a></li>
+                                        <li><a href="blog-left-sidebar.html">Blog Left Sidebar</a></li>
+                                        <li><a href="blog-right-sidebar.html">Blog Right Sidebar</a></li>
+                                        <li><a href="blog-right-sidebar-2.html">Blog Right Sidebar 02</a></li>
+                                        <li><a href="blog-single-left-sidebar.html">Details Left Sidebar</a></li>
+                                        <li><a href="blog-single-right-sidebar.html">Details Right Sidebar</a></li>
+                                    </ul>
+                                </li>
+                                <li><a href="project-details.html">Project Details </a></li>
+                                <li><a href="services-details.html">Services Details</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="services.html">Services</a></li>
+                        <li><a href="project.html">Case Study</a></li>
+                        <li><a href="contact-us.html">Contact Us</a></li>
+                        <li><a href="#" class="btn secondary-solid-btn check-btn">Free Check</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
     <!--header section end-->
 
     <!--body content wrap start-->
     <div class="main">
 
         <!--hero section start-->
-        <section class="ptb-70 gradient-bg">
+        <section class="hero-equal-height ptb-70">
+            <div class="hero-shape hero-shape-none-sm" style="background: url('img/hero-bg-4.png')no-repeat top right">
+            </div>
+            <img src="img/cta-2-path-shape.png" alt="group shape" class="img-fluid group-shape-1">
+            <img src="img/cta-2-circle-shape.png" alt="group shape" class="img-fluid group-shape-2">
+            <img src="img/cta-2-tringle-shape.png" alt="group shape" class="img-fluid group-shape-3">
+            <img src="img/cta-2-tringle-shape.png" alt="group shape" class="img-fluid group-shape-4">
             <div class="container">
-                <div class="row align-items-center">
-                    <div class="col-md-12 col-lg-5">
-                        <div class="hero-slider-content text-white pt-5">
-                            <strong>Digital Marketing</strong>
-                            <h1 class="text-white">Grow Your Business With DigiMark</h1>
+                <div class="row">
+                    <div class="col-md-8 col-lg-6">
+                        <div class="hero-slider-content pt-5">
+                            <strong class="color-secondary">Digital Marketing</strong>
+                            <h1>Empower Your Business Traffic at The Top</h1>
                             <p class="lead">Holisticly procrastinate mission-critical convergence with reliable customer
-                                service. Assertively underwhelm for impactful solutions. </p>
+                                service. Assertively underwhelm idea-sharing for impactful solutions. </p>
+
                             <div class="action-btns mt-3">
-                                <a href="#" class="btn secondary-solid-btn">Start Now</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-12 col-lg-7">
-                        <div class="image-wrap pt-4">
-                            <div class="video-card">
-                                <video autoplay full controls src="video/227f0bd22075cbbe7b1261cba00016cce67f42f0.mp4" class="img-fluid " alt="hero" />
+                                <a href="#" class="btn secondary-solid-btn">Get Start Now</a>
                             </div>
                         </div>
                     </div>
@@ -106,56 +178,65 @@
         <!--promo section start-->
         <section class="promo-section ptb-100">
             <div class="container">
-                <div class="row">
-                    <div class="col-md-4 col-lg-4">
-                        <a href="#">
-                            <div class="single-promo-2 single-promo-hover rounded text-center white-bg p-5 h-100">
-                                <div class="circle-icon">
-                                    <span class="ti-music-alt text-white"></span>
-                                </div>
-                                <h5>Market Research</h5>
-                                <p>Increase sales by showing true dynamics of your website.</p>
+                <div class="row justify-content-center">
+                    <div class="col-md-6 col-lg-4">
+                        <div class="promo-single-wrap p-5 text-center custom-shadow rounded">
+                            <div class="promo-icon mb-4">
+                                <i class="ti-dashboard"></i>
+                                <span class="number-bg">01</span>
                             </div>
-                        </a>
+                            <div class="promo-info">
+                                <strong class="color-secondary">Discuss with Users</strong>
+                                <h4>Site Optimisation</h4>
+                                <p>What is business contents insurance? Business contents insurance is a type of
+                                    business.</p>
+                            </div>
+                        </div>
                     </div>
-                    <div class="col-md-4 col-lg-4">
-                        <a href="#">
-                            <div class="single-promo-2 single-promo-hover rounded text-center white-bg p-5 h-100">
-                                <div class="circle-icon">
-                                    <span class="ti-dashboard text-white"></span>
-                                </div>
-                                <h5>Content Marketing</h5>
-                                <p>Build your online store’s trust using Social Proof &amp; Urgency.</p>
+                    <div class="col-md-6 col-lg-4">
+                        <div class="promo-single-wrap p-5 text-center custom-shadow rounded">
+                            <div class="promo-icon mb-4">
+                                <i class="ti-pulse"></i>
+                                <span class="number-bg">02</span>
                             </div>
-                        </a>
+                            <div class="promo-info">
+                                <strong class="color-secondary">Discuss with Users</strong>
+                                <h4>Increased Traffic</h4>
+                                <p>What is business contents insurance? Business contents insurance is a type of
+                                    business.</p>
+                            </div>
+                        </div>
                     </div>
-                    <div class="col-md-4 col-lg-4">
-                        <a href="#">
-                            <div class="single-promo-2 single-promo-hover rounded text-center white-bg p-5 h-100">
-                                <div class="circle-icon">
-                                    <span class="ti-headphone-alt text-white"></span>
-                                </div>
-                                <h5>Email Marketing</h5>
-                                <p>Realize importance of social proof in customer’s purchase decision.</p>
+                    <div class="col-md-6 col-lg-4">
+                        <div class="promo-single-wrap p-5 text-center custom-shadow rounded">
+                            <div class="promo-icon mb-4">
+                                <i class="ti-vector"></i>
+                                <span class="number-bg">03</span>
                             </div>
-                        </a>
+                            <div class="promo-info">
+                                <strong class="color-secondary">Discuss with Users</strong>
+                                <h4>Digital Marketing</h4>
+                                <p>What is business contents insurance? Business contents insurance is a type of
+                                    business.</p>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
         </section>
         <!--promo section end-->
 
+
         <!--about us section start-->
         <section class="about-us-section ptb-100 gray-light-bg">
             <div class="container">
-                <div class="row">
-                    <div class="col-md-6 col-lg-6">
+                <div class="row align-items-center">
+                    <div class="col-md-12 col-lg-6">
                         <div class="about-us-img">
-                            <img src="img/about-us-img.svg" alt="about us" class="img-fluid about-single-img">
-                            <img src="img/about-us-img-bg.svg" alt="about bg" class="about-us-bg">
+                            <img src="img/why-choose-us.png" alt="about us" class="img-fluid">
                         </div>
                     </div>
-                    <div class="col-md-6 col-lg-6">
+                    <div class="col-md-12 col-lg-6">
                         <div class="about-us-content-wrap">
                             <strong class="color-secondary">About Us</strong>
                             <h3>Grow Your Business With Experienced SEO Experts</h3>
@@ -164,26 +245,13 @@
                                 enterprise-wide services through timely metrics. </p>
                             <ul class="list-unstyled tech-feature-list">
                                 <li class="py-1"><span class="ti-control-forward mr-2 color-secondary"></span><strong>Creative</strong>
-                                    Websites Design
-                                </li>
+                                    Websites Design</li>
                                 <li class="py-1"><span class="ti-control-forward mr-2 color-secondary"></span><strong>Accounting</strong>
-                                    Procedures Guidebook
-                                </li>
+                                    Procedures Guidebook</li>
                                 <li class="py-1"><span class="ti-control-forward mr-2 color-secondary"></span><strong>Cost</strong>
-                                    Accounting Fundamentals
-                                </li>
+                                    Accounting Fundamentals</li>
                                 <li class="py-1"><span class="ti-control-forward mr-2 color-secondary"></span><strong>Corporate</strong>
-                                    Cash Management
-                                </li>
-                                <li class="py-1"><span class="ti-control-forward mr-2 color-secondary"></span><strong>SEO</strong>
-                                    Optimization Services
-                                </li>
-                                <li class="py-1"><span class="ti-control-forward mr-2 color-secondary"></span><strong>Company</strong>
-                                    Brand Solutions
-                                </li>
-                                <li class="py-1"><span class="ti-control-forward mr-2 color-secondary"></span><strong>45-Day</strong>
-                                    Money-Back Guarantee
-                                </li>
+                                    Cash Management</li>
                             </ul>
                             <div class="row mt-4">
                                 <div class="col-4">
@@ -217,190 +285,336 @@
         <!--about us section end-->
 
 
-        <!--call to action section start-->
-        <section class="call-to-action ptb-70" style="background: url('img/cta-bg.jpg')no-repeat center center / cover">
+        <!--call to action progressbar start-->
+        <section class="call-to-action ptb-100" style="background: url('img/ctg-bg-2.jpg')no-repeat center center / cover">
             <div class="container">
                 <div class="row justify-content-center">
-                    <div class="col-md-10 col-lg-9">
-                        <div class="section-heading text-center text-white mb-5">
-                            <h2 class="text-white">Check Your Site Performance</h2>
-                            <p class="lead">Globally reinvent cross-unit human capital whereas virtual catalysts for change. Assertively
-                                network accurate methods of empowerment rather than client-centered improvements.</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="row justify-content-center">
-                    <div class="col-md-10 col-lg-8">
-                        <div class="analysis-form-wrap text-center">
-                            <div class="col-lg-4 col-md-12 p-0">
-                                <div class="form-group analysis-form-group">
-                                    <span class="analysis-form-input">
-                                        <input type="url" name="url" size="40" class="form-control" placeholder="Type website URL">
-                                    </span>
-                                </div>
-                            </div>
-                            <div class="col-lg-4 col-md-12 p-0">
-                                <div class="form-group analysis-form-group analysis-form-border">
-                                    <span class="analysis-form-input">
-                                        <input type="email" name="email" size="40" class="form-control" placeholder="Your Email">
-                                    </span>
-                                </div>
-                            </div>
-                            <div class="col-lg-4 col-md-12 p-0">
-                                <div class="form-group">
-                                    <input type="submit" value="Check Now">
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="cta-image d-none d-lg-block d-md-block">
-                <img src="img/cta-1-man.svg" width="200" class="img-left" alt="cta">
-                <img src="img/cta-1-mike.svg" width="200" class="img-right" alt="cta">
-            </div>
-        </section>
-        <!--call to action section end-->
-
-        <!--services section start-->
-        <section class="services-section ptb-100 gray-light-bg">
-            <div class="container">
-                <div class="row justify-content-center">
-                    <div class="col-md-8">
-                        <div class="section-heading text-center mb-5">
-                            <strong class="color-secondary">Our Services</strong>
-                            <h2>What Can We Do For You</h2>
-                            <span class="animate-border mr-auto ml-auto mb-4"></span>
-                            <p class="lead">Efficiently aggregate end-to-end core competencies without maintainable ideas.
-                                Dynamically
-                                foster tactical solutions without enabled value.</p>
+                    <div class="col-md-8 col-lg-8">
+                        <div class="call-to-action-content text-white text-center mb-4">
+                            <h2 class="text-white mb-1">Increase More Traffic Your Business?</h2>
+                            <p class="lead">Credibly redefine high-payoff web services after holistic experiences.
+                                Globally harness multidisciplinary solutions vis-a-vis intuitive customer service.</p>
                         </div>
                     </div>
                 </div>
                 <div class="row">
-                    <div class="col-lg-4 col-md-6 col-sm-6">
-                        <div class="services-single text-center p-5 my-md-3 my-lg-3 my-sm-0 shadow-sm white-bg rounded">
-                            <span class="ti-announcement icon-lg color-secondary d-block mb-4"></span>
-                            <h5>Digital Marketing</h5>
-                            <p class="mb-0">Progressively empower business "outside the box" thinking with resource-leveling
-                                partnerships.</p>
-                            <a href="services-details.html" target="_blank" class="detail-link mt-4">Read more <span class="ti-arrow-right"></span></a>
+                    <div class="col-md-6 col-lg-3">
+                        <div class="single-counter p-4 text-center text-white">
+                            <span class="ti-medall-alt icon-md"></span>
+                            <h3 class="mb-2 text-white">1600</h3>
+                            <h5 class="text-white">Countries covered</h5>
                         </div>
                     </div>
-                    <div class="col-lg-4 col-md-6 col-sm-6">
-                        <div class="services-single text-center p-5 my-md-3 my-lg-3 my-sm-0 shadow-sm white-bg rounded">
-                            <span class="ti-light-bulb icon-lg color-secondary d-block mb-4"></span>
-                            <h5>Content Marketing</h5>
-                            <p class="mb-0">Progressively empower business "outside the box" thinking with resource-leveling
-                                partnerships.</p>
-                            <a href="services-details.html" target="_blank" class="detail-link mt-4">Read more <span class="ti-arrow-right"></span></a>
+                    <div class="col-md-6 col-lg-3">
+                        <div class="single-counter p-4 text-center text-white">
+                            <span class="ti-headphone-alt icon-md"></span>
+                            <h3 class="mb-2 text-white">2500</h3>
+                            <h5 class="text-white">Ads served monthly</h5>
                         </div>
                     </div>
-                    <div class="col-lg-4 col-md-6 col-sm-6">
-                        <div class="services-single text-center p-5 my-md-3 my-lg-3 my-sm-0 shadow-sm white-bg rounded">
-                            <span class="ti-headphone-alt icon-lg color-secondary d-block mb-4"></span>
-                            <h5>Social Media Marketing</h5>
-                            <p class="mb-0">Progressively empower business "outside the box" thinking with resource-leveling
-                                partnerships.</p>
-                            <a href="services-details.html" target="_blank" class="detail-link mt-4">Read more <span class="ti-arrow-right"></span></a>
+                    <div class="col-md-6 col-lg-3">
+                        <div class="single-counter p-4 text-center text-white">
+                            <span class="ti-cup icon-md"></span>
+                            <h3 class="mb-2 text-white">2150</h3>
+                            <h5 class="text-white">Local publishers</h5>
                         </div>
                     </div>
-                    <div class="col-lg-4 col-md-6 col-sm-6">
-                        <div class="services-single text-center p-5 my-md-3 my-lg-3 my-sm-0 shadow-sm white-bg rounded">
-                            <span class="ti-bell icon-lg color-secondary d-block mb-4"></span>
-                            <h5>SEO Services</h5>
-                            <p class="mb-0">Progressively empower business "outside the box" thinking with resource-leveling
-                                partnerships.</p>
-                            <a href="services-details.html" target="_blank" class="detail-link mt-4">Read more <span class="ti-arrow-right"></span></a>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-md-6 col-sm-6">
-                        <div class="services-single text-center p-5 my-md-3 my-lg-3 my-sm-0 shadow-sm white-bg rounded">
-                            <span class="ti-briefcase icon-lg color-secondary d-block mb-4"></span>
-                            <h5>Email Marketing</h5>
-                            <p class="mb-0">Progressively empower business "outside the box" thinking with resource-leveling
-                                partnerships.</p>
-                            <a href="services-details.html" target="_blank" class="detail-link mt-4">Read more <span class="ti-arrow-right"></span></a>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-md-6 col-sm-6">
-                        <div class="services-single text-center p-5 my-md-3 my-lg-3 my-sm-0 shadow-sm white-bg rounded">
-                            <span class="ti-vector icon-lg color-secondary d-block mb-4"></span>
-                            <h5>Creative Consultancy</h5>
-                            <p class="mb-0">Progressively empower business "outside the box" thinking with resource-leveling
-                                partnerships.</p>
-                            <a href="services-details.html" target="_blank" class="detail-link mt-4">Read more <span class="ti-arrow-right"></span></a>
+                    <div class="col-md-6 col-lg-3">
+                        <div class="single-counter p-4 text-center text-white">
+                            <span class="ti-user icon-md"></span>
+                            <h3 class="mb-2 text-white">2150</h3>
+                            <h5 class="text-white">Active campaigns</h5>
                         </div>
                     </div>
                 </div>
             </div>
         </section>
-        <!--services section end-->
+        <!--call to action progressbar end-->
 
-        <!--why choose us section start-->
-        <section class="why-choose-us ptb-100">
+        <!--outstanding section start-->
+        <section class="outstanding-section ptb-100 gray-light-bg">
             <div class="container">
-                <div class="row align-items-center justify-content-between">
-                    <div class="col-md-6 col-lg-5">
-                        <div class="why-choose-us-wrap">
-                            <strong class="color-secondary">Why Choose Us</strong>
-                            <h3>Best Consulting Every For Business</h3>
-                            <span class="animate-border mb-4"></span>
-                            <p>Globally reinvent cross-unit human capital whereas virtual catalysts for change. Assertively
-                                network accurate methods of empowerment rather than client-centered improvements.</p>
+                <div class="row justify-content-center">
+                    <div class="col-md-9 col-lg-8">
+                        <div class="section-heading text-center mb-1">
+                            <strong class="color-secondary">Our Expertise</strong>
+                            <h2>Outstanding Experience</h2>
+                            <span class="animate-border mr-auto ml-auto mb-4"></span>
+                            <p class="lead">Distinctively grow go forward manufactured products and optimal networks.
+                                Enthusiastically
+                                disseminate user-centric outsourcing revolutionary</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-12 col-lg-12">
+                        <div class="feature-tabs-wrap">
+                            <ul class="nav nav-tabs border-bottom-0 feature-tabs feature-tabs-center d-flex justify-content-center" data-tabs="tabs">
+                                <li class="nav-item">
+                                    <a class="nav-link text-center" href="#feature-tab-1" data-toggle="tab">
+                                        <span class="ti-announcement icon-sm"></span>
+                                        <h6 class="mb-0">Digital Marketing</h6>
+                                    </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link text-center" href="#feature-tab-2" data-toggle="tab">
+                                        <span class="ti-light-bulb icon-sm"></span>
+                                        <h6 class="mb-0">SEO Services</h6>
+                                    </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link text-center active" href="#feature-tab-3" data-toggle="tab">
+                                        <span class="ti-email icon-sm"></span>
+                                        <h6 class="mb-0">Email Marketing</h6>
+                                    </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link text-center" href="#feature-tab-4" data-toggle="tab">
+                                        <span class="ti-shield icon-sm"></span>
+                                        <h6 class="mb-0">Social Media</h6>
+                                    </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link text-center" href="#feature-tab-5" data-toggle="tab">
+                                        <span class="ti-vector icon-sm"></span>
+                                        <h6 class="mb-0">Web Design</h6>
+                                    </a>
+                                </li>
+                            </ul>
+                            <div class="tab-content feature-tab-content">
+                                <div class="tab-pane mt-5" id="feature-tab-1">
+                                    <div class="row justify-content-around">
+                                        <div class="col-md-12 col-lg-5">
+                                            <div class="about-content-right mb-md-4 mb-lg-0 my-md-3 my-lg-3 my-sm-0">
+                                                <p>Objectively productivate installed base technology whereas user
+                                                    friendly
+                                                    ROI.
+                                                    Phosfluorescently innovate functionalized potentialities
+                                                    revolutionize
+                                                    client-based applications.</p>
 
-                            <div class="skill-content-wrap">
-                                <div class="progress-item">
-                                    <div class="progress-title">
-                                        <h6>Technical skills<span class="float-right"><span class="progress-number">80</span>%</span>
-                                        </h6>
-                                    </div>
-                                    <div class="progress">
-                                        <span style="width:80%;"><span class="progress-line"></span></span>
+                                                <p>Holisticly utilize emerging leadership skills whereas multifunctional
+                                                    customer service. Energistically functional bandwidth without
+                                                    granular
+                                                    mindshare. Monotonectally visualize user-centric methodologies
+                                                    low-risk.</p>
+
+                                                <ul class="list-unstyled tech-feature-list">
+                                                    <li class="py-1"><span class="ti-control-forward mr-2 color-secondary"></span><strong>Corporate</strong>
+                                                        Cash Management
+                                                    </li>
+                                                    <li class="py-1"><span class="ti-control-forward mr-2 color-secondary"></span><strong>SEO</strong>
+                                                        Optimization Services
+                                                    </li>
+                                                    <li class="py-1"><span class="ti-control-forward mr-2 color-secondary"></span><strong>Company</strong>
+                                                        Brand Solutions
+                                                    </li>
+                                                </ul>
+
+                                                <a href="#" class="mt-4 btn secondary-solid-btn">Contact With Us</a>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-12 col-lg-6">
+                                            <div class="img-wrap my-md-3 my-lg-3 my-sm-0">
+                                                <img src="img/about-1.jpg" alt="about" class="img-fluid rounded shadow-sm">
+                                            </div>
+                                        </div>
                                     </div>
                                 </div>
-                                <div class="progress-item">
-                                    <div class="progress-title">
-                                        <h6>Web Consulting<span class="float-right"><span class="progress-number">85</span>%</span>
-                                        </h6>
-                                    </div>
-                                    <div class="progress">
-                                        <span style="width:85%;"><span class="progress-line"></span></span>
+                                <div class="tab-pane mt-5" id="feature-tab-2">
+                                    <div class="row align-items-center justify-content-between">
+                                        <div class="col-md-6 col-lg-5">
+                                            <div class="why-choose-us-wrap">
+                                                <h3>Best Consulting Every For Business</h3>
+                                                <p>Globally reinvent cross-unit human capital whereas virtual catalysts
+                                                    for change. Assertively
+                                                    network accurate methods of empowerment rather than client-centered
+                                                    improvements.</p>
+                                                <ul class="list-with-icon">
+                                                    <li class="d-flex align-items-start">
+                                                        <img src="img/increase.svg" width="35" class="mr-3" alt="list icon">
+                                                        <div class="list-icon-info">
+                                                            <strong>Increased Traffic</strong>
+                                                            <p>Conveniently provide access to diverse sources vis-a-vis
+                                                                team building customer service. </p>
+                                                        </div>
+                                                    </li>
+                                                    <li class="d-flex align-items-start">
+                                                        <img src="img/search-engine.svg" width="35" class="mr-3" alt="list icon">
+                                                        <div class="list-icon-info">
+                                                            <strong>Site Optimisation</strong>
+                                                            <p>Efficiently fashion ethical customer service with highly
+                                                                efficient methods of empowerment. </p>
+                                                        </div>
+                                                    </li>
+                                                    <li class="d-flex align-items-start">
+                                                        <img src="img/interface.svg" width="35" class="mr-3" alt="list icon">
+                                                        <div class="list-icon-info">
+                                                            <strong>Page Rankings</strong>
+                                                            <p>Quickly fashion high-quality innovation for cutting-edge
+                                                                sources assertively reinvent inexpensive. </p>
+                                                        </div>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6 col-lg-6">
+                                            <div class="image-wrap">
+                                                <img src="img/t6-hero-img1.svg" alt="why choose us" class="img-fluid">
+                                            </div>
+                                        </div>
                                     </div>
                                 </div>
-                                <div class="progress-item">
-                                    <div class="progress-title">
-                                        <h6>Web Consulting<span class="float-right"><span class="progress-number">85</span>%</span>
-                                        </h6>
-                                    </div>
-                                    <div class="progress">
-                                        <span style="width:85%;"><span class="progress-line"></span></span>
+                                <div class="tab-pane active mt-5" id="feature-tab-3">
+                                    <div class="row align-items-center">
+                                        <div class="col-lg-6 col-md-6">
+                                            <div class="image-wrap">
+                                                <img src="img/tab-img.png" alt="email" class="img-fluid m-auto">
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-6 col-md-6">
+                                            <div class="content-wrap">
+                                                <h3>Grow Your Business With Experienced SEO Experts</h3>
+                                                <p>Intrinsicly recaptiualize alternative internal or "organic" sources
+                                                    for
+                                                    inexpensive outsourcing. Monotonectally create sustainable
+                                                    applications
+                                                    before premier vortals. Holisticly productivate stand-alone value
+                                                    and
+                                                    cost effective users. </p>
+                                                <p>Holisticly syndicate cooperative ideas after pandemic human capital.
+                                                    Professionally provide access to bricks-and-clicks functionalities
+                                                    for
+                                                    visionary customer service. Completely reconceptualize cross-media
+                                                    data
+                                                    for frictionless architectures. </p>
+
+                                                <div class="action-btns mt-4">
+                                                    <a href="#" class="btn secondary-solid-btn mr-3">Start Now</a>
+                                                    <a href="#" class="btn secondary-outline-btn">Learn More</a>
+                                                </div>
+                                            </div>
+                                        </div>
                                     </div>
                                 </div>
-                                <div class="progress-item">
-                                    <div class="progress-title">
-                                        <h6>Technical skills<span class="float-right"><span class="progress-number">80</span>%</span>
-                                        </h6>
+                                <div class="tab-pane mt-5" id="feature-tab-4">
+                                    <div class="row align-items-center">
+                                        <div class="col-lg-6 col-md-6">
+                                            <div class="content-wrap">
+                                                <h3>Grow Your Business With Experienced SEO Experts</h3>
+                                                <p>Intrinsicly recaptiualize alternative internal or "organic" sources
+                                                    for
+                                                    inexpensive outsourcing. Monotonectally create sustainable
+                                                    applications
+                                                    before premier vortals. Holisticly productivate stand-alone value
+                                                    and
+                                                    cost effective users. </p>
+                                                <p>Holisticly syndicate cooperative ideas after pandemic human capital.
+                                                    Professionally provide access to bricks-and-clicks functionalities
+                                                    for
+                                                    visionary customer service. Completely reconceptualize cross-media
+                                                    data
+                                                    for frictionless architectures. </p>
+
+                                                <div class="action-btns mt-4">
+                                                    <a href="#" class="btn secondary-solid-btn mr-3">Start Now</a>
+                                                    <a href="#" class="btn secondary-outline-btn">Learn More</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-6 col-md-6">
+                                            <div class="image-wrap">
+                                                <img src="img/tab-img.png" alt="email" class="img-fluid m-auto">
+                                            </div>
+                                        </div>
                                     </div>
-                                    <div class="progress">
-                                        <span style="width:80%;"><span class="progress-line"></span></span>
+                                </div>
+                                <div class="tab-pane mt-5" id="feature-tab-5">
+                                    <div class="row">
+                                        <div class="col-lg-4 col-md-6 col-sm-6">
+                                            <div class="services-single p-5 my-md-3 my-lg-3 my-sm-0 white-bg shadow-sm rounded">
+                                                <span class="ti-announcement icon-lg color-primary d-block mb-4"></span>
+                                                <h5>Marketing Services</h5>
+                                                <p class="mb-0">Progressively empower business "outside the box"
+                                                    thinking
+                                                    with resource-leveling
+                                                    partnerships.</p>
+                                                <a href="services-details.html" target="_blank" class="detail-link mt-4">Read
+                                                    more <span class="ti-arrow-right"></span></a>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-4 col-md-6 col-sm-6">
+                                            <div class="services-single p-5 my-md-3 my-lg-3 my-sm-0 white-bg shadow-sm rounded">
+                                                <span class="ti-light-bulb icon-lg color-primary d-block mb-4"></span>
+                                                <h5>Total SEO Services</h5>
+                                                <p class="mb-0">Progressively empower business "outside the box"
+                                                    thinking
+                                                    with resource-leveling
+                                                    partnerships.</p>
+                                                <a href="services-details.html" target="_blank" class="detail-link mt-4">Read
+                                                    more <span class="ti-arrow-right"></span></a>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-4 col-md-6 col-sm-6">
+                                            <div class="services-single p-5 my-md-3 my-lg-3 my-sm-0 white-bg shadow-sm rounded">
+                                                <span class="ti-headphone-alt icon-lg color-primary d-block mb-4"></span>
+                                                <h5>24/7 Call Center Service</h5>
+                                                <p class="mb-0">Progressively empower business "outside the box"
+                                                    thinking
+                                                    with resource-leveling
+                                                    partnerships.</p>
+                                                <a href="services-details.html" target="_blank" class="detail-link mt-4">Read
+                                                    more <span class="ti-arrow-right"></span></a>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-4 col-md-6 col-sm-6">
+                                            <div class="services-single p-5 my-md-3 my-lg-3 my-sm-0 white-bg shadow-sm rounded">
+                                                <span class="ti-bell icon-lg color-primary d-block mb-4"></span>
+                                                <h5>Social Media Marketing</h5>
+                                                <p class="mb-0">Progressively empower business "outside the box"
+                                                    thinking
+                                                    with resource-leveling
+                                                    partnerships.</p>
+                                                <a href="services-details.html" target="_blank" class="detail-link mt-4">Read
+                                                    more <span class="ti-arrow-right"></span></a>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-4 col-md-6 col-sm-6">
+                                            <div class="services-single p-5 my-md-3 my-lg-3 my-sm-0 white-bg shadow-sm rounded">
+                                                <span class="ti-briefcase icon-lg color-primary d-block mb-4"></span>
+                                                <h5>Corporate Business</h5>
+                                                <p class="mb-0">Progressively empower business "outside the box"
+                                                    thinking
+                                                    with resource-leveling
+                                                    partnerships.</p>
+                                                <a href="services-details.html" target="_blank" class="detail-link mt-4">Read
+                                                    more <span class="ti-arrow-right"></span></a>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-4 col-md-6 col-sm-6">
+                                            <div class="services-single p-5 my-md-3 my-lg-3 my-sm-0 white-bg shadow-sm rounded">
+                                                <span class="ti-vector icon-lg color-primary d-block mb-4"></span>
+                                                <h5>Creative Consultancy</h5>
+                                                <p class="mb-0">Progressively empower business "outside the box"
+                                                    thinking
+                                                    with resource-leveling
+                                                    partnerships.</p>
+                                                <a href="services-details.html" target="_blank" class="detail-link mt-4">Read
+                                                    more <span class="ti-arrow-right"></span></a>
+                                            </div>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-6 col-lg-6">
-                        <div class="image-wrap">
-                            <img src="img/why-choose-us.png" alt="why choose us" class="img-fluid">
-                        </div>
-                    </div>
                 </div>
             </div>
         </section>
-        <!--why choose us section end-->
+        <!--outstanding section end-->
 
         <!--work process section start-->
-        <section class="work-process-section ptb-100 gray-light-bg">
+        <section class="work-process-section ptb-100">
             <div class="container">
                 <div class="row justify-content-center">
                     <div class="col-md-10 col-lg-9">
@@ -408,7 +622,8 @@
                             <strong class="color-secondary">Work Process</strong>
                             <h2>We follow Few Steps</h2>
                             <span class="animate-border mr-auto ml-auto mb-4"></span>
-                            <p class="lead">Globally reinvent cross-unit human capital whereas virtual catalysts for change. Assertively
+                            <p class="lead">Globally reinvent cross-unit human capital whereas virtual catalysts for
+                                change. Assertively
                                 network accurate methods of empowerment rather than client-centered improvements.</p>
                         </div>
                     </div>
@@ -454,7 +669,8 @@
                                 </div>
                                 <div class="col-md-7">
                                     <h5>Technical SEO</h5>
-                                    <p>Completely synthesize one-to-one interfaces vis-a-vis client-focused alignments.</p>
+                                    <p>Completely synthesize one-to-one interfaces vis-a-vis client-focused alignments.
+                                    </p>
                                 </div>
                             </div>
                             <div class="process-line-r"></div>
@@ -547,7 +763,8 @@
                 <div class="col-lg-6 col-md-12 p-0">
                     <div class="free-trial-image text-center">
                         <img src="img/cta-2-girl-img.jpg" alt="image" class="img-fluid">
-                        <a href="https://www.youtube.com/watch?v=9No-FiEInLA" class="popup-youtube video-play-icon white-bip shadow"><span class="ti-control-play"></span> </a>
+                        <a href="https://www.youtube.com/watch?v=9No-FiEInLA" class="popup-youtube video-play-icon white-bip shadow"><span class="ti-control-play"></span>
+                        </a>
                     </div>
                 </div>
                 <div class="col-lg-6 col-md-12 p-0">
@@ -562,275 +779,17 @@
         </section>
         <!--call to action section end-->
 
-        <!--outstanding section start-->
-        <section class="outstanding-section ptb-100 gray-light-bg">
-            <div class="container">
-                <div class="row justify-content-center">
-                    <div class="col-md-9 col-lg-8">
-                        <div class="section-heading text-center mb-1">
-                            <strong class="color-secondary">Our Expertise</strong>
-                            <h2>Outstanding Experience</h2>
-                            <span class="animate-border mr-auto ml-auto mb-4"></span>
-                            <p class="lead">Distinctively grow go forward manufactured products and optimal networks.
-                                Enthusiastically
-                                disseminate user-centric outsourcing revolutionary</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-md-12 col-lg-12">
-                        <div class="feature-tabs-wrap">
-                            <ul class="nav nav-tabs border-bottom-0 feature-tabs feature-tabs-center d-flex justify-content-center" data-tabs="tabs">
-                                <li class="nav-item">
-                                    <a class="nav-link text-center" href="#feature-tab-1" data-toggle="tab">
-                                        <span class="ti-announcement icon-sm"></span>
-                                        <h6 class="mb-0">Digital Marketing</h6>
-                                    </a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link text-center" href="#feature-tab-2" data-toggle="tab">
-                                        <span class="ti-light-bulb icon-sm"></span>
-                                        <h6 class="mb-0">SEO Services</h6>
-                                    </a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link text-center active" href="#feature-tab-3" data-toggle="tab">
-                                        <span class="ti-email icon-sm"></span>
-                                        <h6 class="mb-0">Email Marketing</h6>
-                                    </a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link text-center" href="#feature-tab-4" data-toggle="tab">
-                                        <span class="ti-shield icon-sm"></span>
-                                        <h6 class="mb-0">Social Media</h6>
-                                    </a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link text-center" href="#feature-tab-5" data-toggle="tab">
-                                        <span class="ti-vector icon-sm"></span>
-                                        <h6 class="mb-0">Web Design</h6>
-                                    </a>
-                                </li>
-                            </ul>
-                            <div class="tab-content feature-tab-content">
-                                <div class="tab-pane mt-5" id="feature-tab-1">
-                                    <div class="row justify-content-around">
-                                        <div class="col-md-12 col-lg-5">
-                                            <div class="about-content-right mb-md-4 mb-lg-0 my-md-3 my-lg-3 my-sm-0">
-                                                <p>Objectively productivate installed base technology whereas user friendly
-                                                    ROI.
-                                                    Phosfluorescently innovate functionalized potentialities revolutionize
-                                                    client-based applications.</p>
-
-                                                <p>Holisticly utilize emerging leadership skills whereas multifunctional
-                                                    customer service. Energistically functional bandwidth without granular
-                                                    mindshare. Monotonectally visualize user-centric methodologies
-                                                    low-risk.</p>
-
-                                                <ul class="list-unstyled tech-feature-list">
-                                                    <li class="py-1"><span class="ti-control-forward mr-2 color-secondary"></span><strong>Corporate</strong>
-                                                        Cash Management
-                                                    </li>
-                                                    <li class="py-1"><span class="ti-control-forward mr-2 color-secondary"></span><strong>SEO</strong>
-                                                        Optimization Services
-                                                    </li>
-                                                    <li class="py-1"><span class="ti-control-forward mr-2 color-secondary"></span><strong>Company</strong>
-                                                        Brand Solutions
-                                                    </li>
-                                                </ul>
-
-                                                <a href="#" class="mt-4 btn secondary-solid-btn">Contact With Us</a>
-                                            </div>
-                                        </div>
-                                        <div class="col-md-12 col-lg-6">
-                                            <div class="img-wrap my-md-3 my-lg-3 my-sm-0">
-                                                <img src="img/about-1.jpg" alt="about" class="img-fluid rounded shadow-sm">
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="tab-pane mt-5" id="feature-tab-2">
-                                    <div class="row align-items-center justify-content-between">
-                                        <div class="col-md-6 col-lg-5">
-                                            <div class="why-choose-us-wrap">
-                                                <h3>Best Consulting Every For Business</h3>
-                                                <p>Globally reinvent cross-unit human capital whereas virtual catalysts for change. Assertively
-                                                    network accurate methods of empowerment rather than client-centered improvements.</p>
-                                                <ul class="list-with-icon">
-                                                    <li class="d-flex align-items-start">
-                                                        <img src="img/increase.svg" width="35" class="mr-3" alt="list icon">
-                                                        <div class="list-icon-info">
-                                                            <strong>Increased Traffic</strong>
-                                                            <p>Conveniently provide access to diverse sources vis-a-vis team building customer service. </p>
-                                                        </div>
-                                                    </li>
-                                                    <li class="d-flex align-items-start">
-                                                        <img src="img/search-engine.svg" width="35" class="mr-3" alt="list icon">
-                                                        <div class="list-icon-info">
-                                                            <strong>Site Optimisation</strong>
-                                                            <p>Efficiently fashion ethical customer service with highly efficient methods of empowerment. </p>
-                                                        </div>
-                                                    </li>
-                                                    <li class="d-flex align-items-start">
-                                                        <img src="img/interface.svg" width="35" class="mr-3" alt="list icon">
-                                                        <div class="list-icon-info">
-                                                            <strong>Page Rankings</strong>
-                                                            <p>Quickly fashion high-quality innovation for cutting-edge sources assertively reinvent inexpensive. </p>
-                                                        </div>
-                                                    </li>
-                                                </ul>
-                                            </div>
-                                        </div>
-                                        <div class="col-md-6 col-lg-6">
-                                            <div class="image-wrap">
-                                                <img src="img/t6-hero-img1.svg" alt="why choose us" class="img-fluid">
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="tab-pane active mt-5" id="feature-tab-3">
-                                    <div class="row align-items-center">
-                                        <div class="col-lg-6 col-md-6">
-                                            <div class="image-wrap">
-                                                <img src="img/tab-img.png" alt="email" class="img-fluid m-auto">
-                                            </div>
-                                        </div>
-                                        <div class="col-lg-6 col-md-6">
-                                            <div class="content-wrap">
-                                                <h3>Grow Your Business With Experienced SEO Experts</h3>
-                                                <p>Intrinsicly recaptiualize alternative internal or "organic" sources for
-                                                    inexpensive outsourcing. Monotonectally create sustainable applications
-                                                    before premier vortals. Holisticly productivate stand-alone value and
-                                                    cost effective users. </p>
-                                                <p>Holisticly syndicate cooperative ideas after pandemic human capital.
-                                                    Professionally provide access to bricks-and-clicks functionalities for
-                                                    visionary customer service. Completely reconceptualize cross-media data
-                                                    for frictionless architectures. </p>
-
-                                                <div class="action-btns mt-4">
-                                                    <a href="#" class="btn secondary-solid-btn mr-3">Start Now</a>
-                                                    <a href="#" class="btn secondary-outline-btn">Learn More</a>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="tab-pane mt-5" id="feature-tab-4">
-                                    <div class="row align-items-center">
-                                        <div class="col-lg-6 col-md-6">
-                                            <div class="content-wrap">
-                                                <h3>Grow Your Business With Experienced SEO Experts</h3>
-                                                <p>Intrinsicly recaptiualize alternative internal or "organic" sources for
-                                                    inexpensive outsourcing. Monotonectally create sustainable applications
-                                                    before premier vortals. Holisticly productivate stand-alone value and
-                                                    cost effective users. </p>
-                                                <p>Holisticly syndicate cooperative ideas after pandemic human capital.
-                                                    Professionally provide access to bricks-and-clicks functionalities for
-                                                    visionary customer service. Completely reconceptualize cross-media data
-                                                    for frictionless architectures. </p>
-
-                                                <div class="action-btns mt-4">
-                                                    <a href="#" class="btn secondary-solid-btn mr-3">Start Now</a>
-                                                    <a href="#" class="btn secondary-outline-btn">Learn More</a>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="col-lg-6 col-md-6">
-                                            <div class="image-wrap">
-                                                <img src="img/tab-img.png" alt="email" class="img-fluid m-auto">
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="tab-pane mt-5" id="feature-tab-5">
-                                    <div class="row">
-                                        <div class="col-lg-4 col-md-6 col-sm-6">
-                                            <div class="services-single p-5 my-md-3 my-lg-3 my-sm-0 white-bg shadow-sm rounded">
-                                                <span class="ti-announcement icon-lg color-primary d-block mb-4"></span>
-                                                <h5>Marketing Services</h5>
-                                                <p class="mb-0">Progressively empower business "outside the box" thinking
-                                                    with resource-leveling
-                                                    partnerships.</p>
-                                                <a href="services-details.html" target="_blank" class="detail-link mt-4">Read
-                                                    more <span class="ti-arrow-right"></span></a>
-                                            </div>
-                                        </div>
-                                        <div class="col-lg-4 col-md-6 col-sm-6">
-                                            <div class="services-single p-5 my-md-3 my-lg-3 my-sm-0 white-bg shadow-sm rounded">
-                                                <span class="ti-light-bulb icon-lg color-primary d-block mb-4"></span>
-                                                <h5>Total SEO Services</h5>
-                                                <p class="mb-0">Progressively empower business "outside the box" thinking
-                                                    with resource-leveling
-                                                    partnerships.</p>
-                                                <a href="services-details.html" target="_blank" class="detail-link mt-4">Read
-                                                    more <span class="ti-arrow-right"></span></a>
-                                            </div>
-                                        </div>
-                                        <div class="col-lg-4 col-md-6 col-sm-6">
-                                            <div class="services-single p-5 my-md-3 my-lg-3 my-sm-0 white-bg shadow-sm rounded">
-                                                <span class="ti-headphone-alt icon-lg color-primary d-block mb-4"></span>
-                                                <h5>24/7 Call Center Service</h5>
-                                                <p class="mb-0">Progressively empower business "outside the box" thinking
-                                                    with resource-leveling
-                                                    partnerships.</p>
-                                                <a href="services-details.html" target="_blank" class="detail-link mt-4">Read
-                                                    more <span class="ti-arrow-right"></span></a>
-                                            </div>
-                                        </div>
-                                        <div class="col-lg-4 col-md-6 col-sm-6">
-                                            <div class="services-single p-5 my-md-3 my-lg-3 my-sm-0 white-bg shadow-sm rounded">
-                                                <span class="ti-bell icon-lg color-primary d-block mb-4"></span>
-                                                <h5>Social Media Marketing</h5>
-                                                <p class="mb-0">Progressively empower business "outside the box" thinking
-                                                    with resource-leveling
-                                                    partnerships.</p>
-                                                <a href="services-details.html" target="_blank" class="detail-link mt-4">Read
-                                                    more <span class="ti-arrow-right"></span></a>
-                                            </div>
-                                        </div>
-                                        <div class="col-lg-4 col-md-6 col-sm-6">
-                                            <div class="services-single p-5 my-md-3 my-lg-3 my-sm-0 white-bg shadow-sm rounded">
-                                                <span class="ti-briefcase icon-lg color-primary d-block mb-4"></span>
-                                                <h5>Corporate Business</h5>
-                                                <p class="mb-0">Progressively empower business "outside the box" thinking
-                                                    with resource-leveling
-                                                    partnerships.</p>
-                                                <a href="services-details.html" target="_blank" class="detail-link mt-4">Read
-                                                    more <span class="ti-arrow-right"></span></a>
-                                            </div>
-                                        </div>
-                                        <div class="col-lg-4 col-md-6 col-sm-6">
-                                            <div class="services-single p-5 my-md-3 my-lg-3 my-sm-0 white-bg shadow-sm rounded">
-                                                <span class="ti-vector icon-lg color-primary d-block mb-4"></span>
-                                                <h5>Creative Consultancy</h5>
-                                                <p class="mb-0">Progressively empower business "outside the box" thinking
-                                                    with resource-leveling
-                                                    partnerships.</p>
-                                                <a href="services-details.html" target="_blank" class="detail-link mt-4">Read
-                                                    more <span class="ti-arrow-right"></span></a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <!--outstanding section end-->
-
         <!--our work or portfolio section start-->
-        <section class="our-portfolio-section ptb-100">
+        <section class="our-portfolio-section ptb-100 gray-light-bg">
             <div class="container">
                 <div class="row justify-content-center">
                     <div class="col-lg-8">
-                        <div class="section-heading text-center mb-4">
+                        <div class="section-heading text-center mb-5">
                             <strong class="color-secondary">Previous Project</strong>
                             <h2>Our Case Studies</h2>
                             <span class="animate-border mr-auto ml-auto mb-4"></span>
-                            <p class="lead">Dynamically pursue reliable convergence rather than 24/7 process improvements.
-                                Intrinsicly
+                            <p class="lead">Dynamically pursue reliable convergence rather than 24/7 process
+                                improvements. Intrinsicly
                                 develop end-to-end customer service without extensive data.</p>
 
                         </div>
@@ -840,17 +799,11 @@
                     <div class="col-md-12">
                         <div class="text-center pb-2">
                             <button type="button" class="filter-btn" data-mixitup-control data-filter="all">Digital
-                                Marketing
-                            </button>
-                            <button type="button" class="filter-btn" data-mixitup-control data-filter=".branding">Marketing
-                                Strategy
-                            </button>
-                            <button type="button" class="filter-btn" data-mixitup-control data-filter=".animation">Content
-                                Marketing
-                            </button>
+                                Marketing</button>
+                            <button type="button" class="filter-btn" data-mixitup-control data-filter=".branding">Marketing Strategy</button>
+                            <button type="button" class="filter-btn" data-mixitup-control data-filter=".animation">Content Marketing</button>
                             <button type="button" class="filter-btn" data-mixitup-control data-filter=".other">SEO
-                                Services
-                            </button>
+                                Services</button>
                         </div>
                         <div class="portfolio-container" id="MixItUp">
                             <div class="mix portfolio-item branding" data-ref="mixitup-target">
@@ -960,7 +913,7 @@
         <!--our work or portfolio section end-->
 
         <!--pricing with switch section start-->
-        <section class="pricing-section ptb-100 gray-light-bg">
+        <section class="pricing-section ptb-100">
             <div class="container">
                 <div class="row justify-content-center">
                     <div class="col-md-9 col-lg-8">
@@ -969,7 +922,8 @@
                             <h2>Flexible Price</h2>
                             <span class="animate-border mr-auto ml-auto mb-4"></span>
                             <p class="lead">
-                                Professional hosting at an affordable price. Distinctively recaptiualize principle-centered
+                                Professional hosting at an affordable price. Distinctively recaptiualize
+                                principle-centered
                                 core competencies through client-centered
                                 core competencies.
                             </p>
@@ -1065,9 +1019,11 @@
                     </div>
                     <div class="col-12">
                         <div class="support-cta text-center mt-5">
-                            <h5 class="mb-1"><span class="ti-headphone-alt color-primary mr-3"></span>We're Here to Help You
+                            <h5 class="mb-1"><span class="ti-headphone-alt color-primary mr-3"></span>We're Here to Help
+                                You
                             </h5>
-                            <p>Have some questions? <a href="#">Chat with us now</a>, or <a href="#">send us an email</a> to
+                            <p>Have some questions? <a href="#">Chat with us now</a>, or <a href="#">send us an
+                                    email</a> to
                                 get in touch.</p>
                         </div>
                     </div>
@@ -1075,217 +1031,6 @@
             </div>
         </section>
         <!--pricing with switch section end-->
-
-        <!--testimonial section start-->
-        <section class="testimonial-section ptb-100" style="background: url('img/testimonial-bg.png')no-repeat center center / cover">
-            <div class="container">
-                <div class="row align-items-center">
-                    <div class="col-md-6 col-lg-5">
-                        <div class="testimonial-heading text-white">
-                            <h2 class="text-white">What Our Client Say About Us</h2>
-                            <span class="animate-border mb-4"></span>
-                            <p>Collaboratively actualize excellent schemas without effective models. Synergistically
-                                engineer functionalized applications rather than backend e-commerce.</p>
-                        </div>
-                    </div>
-                    <div class="col-md-6 col-lg-6">
-                        <div class="testimonial-content-wrap">
-                            <img src="img/testimonial-arrow-top.png" class="img-fluid testimonial-tb-shape shape-top" alt="testimonial shape">
-                            <div class="owl-carousel owl-theme client-testimonial-1 custom-dot testimonial-shape">
-                                <div class="item">
-                                    <div class="testimonial-quote-wrap">
-                                        <div class="media author-info mb-3">
-                                            <div class="author-img mr-3">
-                                                <img src="img/client-1.jpg" alt="client" class="img-fluid">
-                                            </div>
-                                            <div class="media-body text-white">
-                                                <h5 class="mb-0 text-white">John Charles</h5>
-                                                <span>BizBite</span>
-                                            </div>
-                                            <span class="fas fa-quote-right icon-md text-white"></span>
-                                        </div>
-                                        <div class="client-say text-white">
-                                            <p>Interactively optimize
-                                                fully researched expertise vis-a-vis plug-and-play relationships.
-                                                Intrinsicly
-                                                develop viral core competencies for fully tested customer service.
-                                                Enthusiastically create next-generation growth strategies and.</p>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="item">
-                                    <div class="testimonial-quote-wrap">
-                                        <div class="media author-info mb-3">
-                                            <div class="author-img mr-3">
-                                                <img src="img/client-2.jpg" alt="client" class="img-fluid">
-                                            </div>
-                                            <div class="media-body text-white">
-                                                <h5 class="mb-0 text-white">Arabella Ora</h5>
-                                                <span>BizBite</span>
-                                            </div>
-                                            <span class="fas fa-quote-right icon-md text-white"></span>
-                                        </div>
-                                        <div class="client-say text-white">
-                                            <p>Rapidiously develop user
-                                                friendly growth strategies after extensive initiatives. Conveniently grow
-                                                innovative benefits through fully tested deliverables. Rapidiously utilize
-                                                focused platforms through end-to-end schemas.</p>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="item">
-                                    <div class="testimonial-quote-wrap">
-                                        <div class="media author-info mb-3">
-                                            <div class="author-img mr-3">
-                                                <img src="img/client-3.jpg" alt="client" class="img-fluid">
-                                            </div>
-                                            <div class="media-body text-white">
-                                                <h5 class="mb-0 text-white">Jeremy Jere</h5>
-                                                <span>BizBite</span>
-                                            </div>
-                                            <span class="fas fa-quote-right icon-md text-white"></span>
-                                        </div>
-                                        <div class="client-say text-white">
-                                            <p>Objectively synthesize
-                                                client-centered e-tailers for maintainable channels. Holisticly administrate
-                                                customer directed vortals whereas tactical functionalities. Energistically
-                                                monetize reliable imperatives through client-centric best practices.
-                                                Collaboratively.</p>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="item">
-                                    <div class="testimonial-quote-wrap">
-                                        <div class="media author-info mb-3">
-                                            <div class="author-img mr-3">
-                                                <img src="img/client-4.jpg" alt="client" class="img-fluid">
-                                            </div>
-                                            <div class="media-body text-white">
-                                                <h5 class="mb-0 text-white">John Charles</h5>
-                                                <span>BizBite</span>
-                                            </div>
-                                            <span class="fas fa-quote-right icon-md text-white"></span>
-                                        </div>
-                                        <div class="client-say text-white">
-                                            <p>Enthusiastically innovate
-                                                B2C data without clicks-and-mortar convergence. Monotonectally deliver
-                                                compelling testing procedures vis-a-vis B2B testing procedures. Competently
-                                                evisculate integrated resources whereas global processes.
-                                                Enthusiastically.</p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <img src="img/testimonial-arrow-bottom.png" class="img-fluid testimonial-tb-shape shape-bottom" alt="testimonial shape">
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <!--testimonial section end-->
-
-        <!--blog section start-->
-        <section class="our-blog-section ptb-100">
-            <div class="container">
-                <div class="row justify-content-center">
-                    <div class="col-md-10 col-lg-9">
-                        <div class="section-heading text-center mb-5">
-                            <strong class="color-secondary">New and Blog</strong>
-                            <h2>Our Latest News</h2>
-                            <span class="animate-border mr-auto ml-auto mb-4"></span>
-                            <p class="lead">
-                                Enthusiastically drive revolutionary opportunities before emerging leadership. Distinctively
-                                transform tactical methods of empowerment via resource.
-                            </p>
-                        </div>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-md-4">
-                        <div class="single-blog-card card border-0 shadow-sm">
-                            <div class="blog-img position-relative">
-                                <img src="img/blog/1.jpg" class="card-img-top" alt="blog">
-                                <div class="meta-date">
-                                    <strong>24</strong>
-                                    <small>Apr</small>
-                                </div>
-                            </div>
-                            <div class="card-body">
-                                <div class="post-meta mb-2">
-                                    <ul class="list-inline meta-list">
-                                        <li class="list-inline-item"><i class="fas fa-heart mr-2"></i><span>45</span>
-                                            Comments
-                                        </li>
-                                        <li class="list-inline-item"><i class="fas fa-share-alt mr-2"></i><span>10</span>
-                                            Share
-                                        </li>
-                                    </ul>
-                                </div>
-                                <h3 class="h5 mb-2 card-title"><a href="#">Appropriately productize fully</a></h3>
-                                <p class="card-text">Some quick example text to build on the card title and make up the
-                                    bulk.</p>
-                                <a href="#" class="detail-link">Read more <span class="ti-arrow-right"></span></a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-4">
-                        <div class="single-blog-card card border-0 shadow-sm">
-                            <div class="blog-img position-relative">
-                                <img src="img/blog/2.jpg" class="card-img-top" alt="blog">
-                                <div class="meta-date">
-                                    <strong>24</strong>
-                                    <small>Apr</small>
-                                </div>
-                            </div>
-                            <div class="card-body">
-                                <div class="post-meta mb-2">
-                                    <ul class="list-inline meta-list">
-                                        <li class="list-inline-item"><i class="fas fa-heart mr-2"></i><span>45</span>
-                                            Comments
-                                        </li>
-                                        <li class="list-inline-item"><i class="fas fa-share-alt mr-2"></i><span>10</span>
-                                            Share
-                                        </li>
-                                    </ul>
-                                </div>
-                                <h3 class="h5 mb-2 card-title"><a href="#">Quickly formulate backend</a></h3>
-                                <p class="card-text">Synergistically engage effective ROI after customer directed
-                                    partnerships.</p>
-                                <a href="#" class="detail-link">Read more <span class="ti-arrow-right"></span></a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-4">
-                        <div class="single-blog-card card border-0 shadow-sm">
-                            <div class="blog-img position-relative">
-                                <img src="img/blog/3.jpg" class="card-img-top" alt="blog">
-                                <div class="meta-date">
-                                    <strong>24</strong>
-                                    <small>Apr</small>
-                                </div>
-                            </div>
-                            <div class="card-body">
-                                <div class="post-meta mb-2">
-                                    <ul class="list-inline meta-list">
-                                        <li class="list-inline-item"><i class="fas fa-heart mr-2"></i><span>45</span>
-                                            Comments
-                                        </li>
-                                        <li class="list-inline-item"><i class="fas fa-share-alt mr-2"></i><span>10</span>
-                                            Share
-                                        </li>
-                                    </ul>
-                                </div>
-                                <h3 class="h5 mb-2 card-title"><a href="#">Objectively extend extensive</a></h3>
-                                <p class="card-text">Holisticly mesh open-source leadership rather than proactive
-                                    users. </p>
-                                <a href="#" class="detail-link">Read more <span class="ti-arrow-right"></span></a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <!--blog section end-->
 
         <!--client section start-->
         <div class="client-section ptb-100" style="background: url('img/client-bg.jpg')no-repeat center center / cover">
@@ -1340,9 +1085,104 @@
         </div>
         <!--client section end-->
 
+        <!--blog section start-->
+        <section class="our-blog-section ptb-100">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-md-10 col-lg-9">
+                        <div class="section-heading text-center mb-5">
+                            <strong class="color-secondary">New and Blog</strong>
+                            <h2>Our Latest News</h2>
+                            <span class="animate-border mr-auto ml-auto mb-4"></span>
+                            <p class="lead">
+                                Enthusiastically drive revolutionary opportunities before emerging leadership.
+                                Distinctively
+                                transform tactical methods of empowerment via resource.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="single-blog-card card border-0 shadow-sm">
+                            <div class="blog-img position-relative">
+                                <img src="img/blog/1.jpg" class="card-img-top" alt="blog">
+                                <div class="meta-date">
+                                    <strong>24</strong>
+                                    <small>Apr</small>
+                                </div>
+                            </div>
+                            <div class="card-body">
+                                <div class="post-meta mb-2">
+                                    <ul class="list-inline meta-list">
+                                        <li class="list-inline-item"><i class="fas fa-heart mr-2"></i><span>45</span>
+                                            Comments</li>
+                                        <li class="list-inline-item"><i class="fas fa-share-alt mr-2"></i><span>10</span> Share</li>
+                                    </ul>
+                                </div>
+                                <h3 class="h5 mb-2 card-title"><a href="#">Appropriately productize fully</a></h3>
+                                <p class="card-text">Some quick example text to build on the card title and make up the
+                                    bulk.</p>
+                                <a href="#" class="detail-link">Read more <span class="ti-arrow-right"></span></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="single-blog-card card border-0 shadow-sm">
+                            <div class="blog-img position-relative">
+                                <img src="img/blog/2.jpg" class="card-img-top" alt="blog">
+                                <div class="meta-date">
+                                    <strong>24</strong>
+                                    <small>Apr</small>
+                                </div>
+                            </div>
+                            <div class="card-body">
+                                <div class="post-meta mb-2">
+                                    <ul class="list-inline meta-list">
+                                        <li class="list-inline-item"><i class="fas fa-heart mr-2"></i><span>45</span>
+                                            Comments</li>
+                                        <li class="list-inline-item"><i class="fas fa-share-alt mr-2"></i><span>10</span> Share</li>
+                                    </ul>
+                                </div>
+                                <h3 class="h5 mb-2 card-title"><a href="#">Quickly formulate backend</a></h3>
+                                <p class="card-text">Synergistically engage effective ROI after customer directed
+                                    partnerships.</p>
+                                <a href="#" class="detail-link">Read more <span class="ti-arrow-right"></span></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="single-blog-card card border-0 shadow-sm">
+                            <div class="blog-img position-relative">
+                                <img src="img/blog/3.jpg" class="card-img-top" alt="blog">
+                                <div class="meta-date">
+                                    <strong>24</strong>
+                                    <small>Apr</small>
+                                </div>
+                            </div>
+                            <div class="card-body">
+                                <div class="post-meta mb-2">
+                                    <ul class="list-inline meta-list">
+                                        <li class="list-inline-item"><i class="fas fa-heart mr-2"></i><span>45</span>
+                                            Comments</li>
+                                        <li class="list-inline-item"><i class="fas fa-share-alt mr-2"></i><span>10</span> Share</li>
+                                    </ul>
+                                </div>
+                                <h3 class="h5 mb-2 card-title"><a href="#">Objectively extend extensive</a></h3>
+                                <p class="card-text">Holisticly mesh open-source leadership rather than proactive users.
+                                </p>
+                                <a href="#" class="detail-link">Read more <span class="ti-arrow-right"></span></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--blog section end-->
+
 
         <!--team two section start-->
-        <section class="team-two-section ptb-100">
+        <section class="team-two-section ptb-100 gray-light-bg">
             <div class="container">
                 <div class="row justify-content-center">
                     <div class="col-md-8 col-lg-8">
@@ -1501,7 +1341,7 @@
         <!--team two section end-->
 
         <!--call to action section start-->
-        <section class="call-to-action py-5 gray-light-bg">
+        <section class="call-to-action py-5">
             <div class="container">
                 <div class="row justify-content-around align-items-center">
                     <div class="col-md-7">
@@ -1525,7 +1365,125 @@
 
 
     <!--footer section start-->
-    <!-- <?php include 'includes/footer.php' ?> -->
+    <footer class="footer-section">
+        <!--footer top start-->
+        <div class="footer-top gradient-bg">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-12 col-md-12 col-lg-9">
+                        <div class="row footer-top-wrap">
+                            <div class="col-md-4 col-sm-6">
+                                <div class="footer-nav-wrap text-white">
+                                    <img src="img/logo-white.png" alt="logo" class="mb-2">
+                                    <p>Continually myocardinate inexpensive catalysts for change with seamless
+                                        initiatives.</p>
+                                    <div class="social-nav mt-4">
+                                        <ul class="list-unstyled social-list mb-0">
+                                            <li class="list-inline-item tooltip-hover">
+                                                <a href="#" class="rounded"><span class="ti-facebook"></span></a>
+                                                <div class="tooltip-item">Facebook</div>
+                                            </li>
+                                            <li class="list-inline-item tooltip-hover"><a href="#" class="rounded"><span class="ti-twitter"></span></a>
+                                                <div class="tooltip-item">Twitter</div>
+                                            </li>
+                                            <li class="list-inline-item tooltip-hover"><a href="#" class="rounded"><span class="ti-linkedin"></span></a>
+                                                <div class="tooltip-item">Linkedin</div>
+                                            </li>
+                                            <li class="list-inline-item tooltip-hover"><a href="#" class="rounded"><span class="ti-dribbble"></span></a>
+                                                <div class="tooltip-item">Dribbble</div>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4 col-sm-6">
+                                <div class="footer-nav-wrap text-white">
+                                    <h4 class="text-white">COMPANY</h4>
+                                    <ul class="nav flex-column">
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="#">About Our Services</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="#">Our Affiliates Program</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="#">View Our Blog</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="#">Check Our Careers</a>
+                                        </li>
+                                    </ul>
+
+                                </div>
+                            </div>
+                            <div class="col-md-4 col-sm-6">
+                                <div class="footer-nav-wrap text-white">
+                                    <h4 class="text-white">LEGAL</h4>
+                                    <ul class="nav flex-column">
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="#">Legal Information</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="#">Privacy Policy</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="#">Report Abuse</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="#">Terms of Service</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-12 col-md-6 col-lg-3">
+                        <div class="row footer-top-wrap mt-md-4 mt-sm-0 mt-lg-0">
+                            <div class="col-12">
+                                <div class="footer-nav-wrap text-white">
+                                    <h4 class="text-white">GET IN TOUCH</h4>
+                                    <ul class="get-in-touch-list">
+                                        <li class="d-flex align-items-center py-2"><span class="fas fa-map-marker-alt mr-2"></span> 1234 Street Name, City Name,
+                                            USA
+                                        </li>
+                                        <li class="d-flex align-items-center py-2"><span class="fas fa-envelope mr-2"></span> you@domain.com
+                                        </li>
+                                        <!--<li class="d-flex align-items-center py-2"><span class="fas fa-phone-alt mr-2"></span> (123) 456-7890 - (123) 456-7890</li>-->
+                                    </ul>
+                                    <form class="newsletter-form mt-3">
+                                        <input type="text" class="input-newsletter" placeholder="Enter your email" name="EMAIL" required="" autocomplete="off">
+                                        <button type="submit" class="disabled" style="pointer-events: all; cursor: pointer;"><i class="fas fa-paper-plane"></i></button>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--footer top end-->
+
+        <!--footer copyright start-->
+        <div class="footer-bottom gray-light-bg py-2">
+            <div class="container">
+                <div class="row align-items-center justify-content-between">
+                    <div class="col-md-5 col-lg-5">
+                        <p class="copyright-text pb-0 mb-0">Copyrights © 2020. All
+                            rights reserved by
+                            <a href="https://themeforest.net/user/themetags" target="_blank">ThemeTags</a>
+                        </p>
+                    </div>
+                    <div class="col-md-7 col-lg-6 d-none d-md-block d-lg-block">
+                        <ul class="list-inline policy-nav text-right social-list">
+                            <li class="list-inline-item"><a href="#">Privacy Policy</a></li>
+                            <li class="list-inline-item"><a href="#">Terms & Conditions</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--footer copyright end-->
+    </footer>
     <!--footer section end-->
 
     <!--bottom to top button start-->
@@ -1561,6 +1519,6 @@
     <script src="js/scripts.js"></script>
 </body>
 
-<!-- Mirrored from digimark.themetags.com/index.html by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 02 Nov 2023 12:08:53 GMT -->
+<!-- Mirrored from digimark.themetags.com/index-4.html by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 02 Nov 2023 12:08:02 GMT -->
 
 </html>
