@@ -95,7 +95,7 @@
                 <div class="col-md-12 col-lg-7">
                     <div class="image-wrap pt-4">
                         <div class="video-card">
-                        <video  autoplay full controls src="video\227f0bd22075cbbe7b1261cba00016cce67f42f0.mp4" class="img-fluid " alt="hero"/>
+                        <video  autoplay full controls src="video/227f0bd22075cbbe7b1261cba00016cce67f42f0.mp4"  alt="hero"/>
                   </div> 
                  </div>
                 </div>

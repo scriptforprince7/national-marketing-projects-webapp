@@ -37,7 +37,7 @@
     <nav class="navbar navbar-expand-lg fixed-top white-bg">
         <div class="container">
             <a class="navbar-brand" href="index.html">
-                <img src="img/logo-color.png" alt="logo" class="img-fluid"/>
+                <img src="img\logo.png" alt="logo" class="img-fluid"/>
             </a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
                     aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
