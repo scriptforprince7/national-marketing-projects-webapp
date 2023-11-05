@@ -17,14 +17,11 @@
                             <li class="list-inline-item">
                                 <a href="#" class="rounded"><span class="fab fa-facebook-f"></span></a>
                             </li>
-                            <li class="list-inline-item"><a href="#" class="rounded"><span
-                                    class="fab fa-twitter"></span></a>
+                            <li class="list-inline-item"><a href="#" class="rounded"><span class="fab fa-twitter"></span></a>
                             </li>
-                            <li class="list-inline-item"><a href="#" class="rounded"><span
-                                    class="fab fa-linkedin-in"></span></a>
+                            <li class="list-inline-item"><a href="#" class="rounded"><span class="fab fa-linkedin-in"></span></a>
                             </li>
-                            <li class="list-inline-item"><a href="#" class="rounded"><span
-                                    class="fab fa-dribbble"></span></a>
+                            <li class="list-inline-item"><a href="#" class="rounded"><span class="fab fa-dribbble"></span></a>
                             </li>
                         </ul>
                     </div>
@@ -37,16 +34,15 @@
     <nav class="navbar navbar-expand-lg fixed-top white-bg">
         <div class="container">
             <a class="navbar-brand" href="index.html">
-                <img src="img\logo.png" alt="logo" class="img-fluid"/>
+                <img src="img\logo.png" alt="logo" class="img-fluid custom-logo" />
             </a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-                    aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="ti-menu"></span>
             </button>
             <div class="collapse navbar-collapse h-auto" id="navbarSupportedContent">
                 <ul class="navbar-nav ml-auto menu">
                     <li><a href="#" class="dropdown-toggle"> Home</a>
-                        <ul class="sub-menu">
+                        <ul class="Sub-menu">
                             <li><a href="index.html">Home Page 01</a></li>
                             <li><a href="index-2.html">Home Page 02</a></li>
                             <li><a href="index-3.html">Home Page 03</a></li>
@@ -58,9 +54,9 @@
                     </li>
                     <li><a href="about-us.html">About Us</a></li>
                     <li><a href="#" class="dropdown-toggle">Pages</a>
-                        <ul class="sub-menu">
+                        <ul class="Sub-menu">
                             <li><a href="#" class="dropdown-toggle-inner">Login & Sign Up</a>
-                                <ul class="sub-menu">
+                                <ul class="Sub-menu">
                                     <li><a href="basic-login.html">Login Page 1</a></li>
                                     <li><a href="login.html">Login Page 2</a></li>
                                     <li><a href="basic-sign-up.html">Signup Page 1</a></li>
@@ -70,7 +66,7 @@
                                 </ul>
                             </li>
                             <li><a href="#" class="dropdown-toggle-inner">Utilities</a>
-                                <ul class="sub-menu">
+                                <ul class="Sub-menu">
                                     <li><a href="download.html">Download Page</a></li>
                                     <li><a href="review.html">Review Page</a></li>
                                     <li><a href="faq.html">FAQ Page</a></li>
@@ -80,13 +76,13 @@
                                 </ul>
                             </li>
                             <li><a href="#" class="dropdown-toggle-inner">Team</a>
-                                <ul class="sub-menu">
+                                <ul class="Sub-menu">
                                     <li><a href="team.html">Our Team Members</a></li>
                                     <li><a href="team-single.html">Team Member Profile</a></li>
                                 </ul>
                             </li>
                             <li><a href="#" class="dropdown-toggle-inner">Our Blog</a>
-                                <ul class="sub-menu">
+                                <ul class="Sub-menu">
                                     <li><a href="blog-default.html">Blog Grid</a></li>
                                     <li><a href="blog-no-sidebar.html">Blog No Sidebar</a></li>
                                     <li><a href="blog-left-sidebar.html">Blog Left Sidebar</a></li>
@@ -100,9 +96,39 @@
                             <li><a href="services-details.html">Services Details</a></li>
                         </ul>
                     </li>
+
+
+
+
+                    <li class="dropdown">
+                        <a href="#">Test-dropdown</a>
+                        <div class="dropdown-content">
+                            <div class="Sub-menu">
+                                <p class="heading">A</p>
+                                <ul>
+                                    <li><a href="#">Service A1</a></li>
+                                    <li><a href="#">Service A2</a></li>
+                                </ul>
+                            </div>
+                            <div class="Sub-menu">
+                                <p class="heading">B</p>
+                                <ul>
+                                    <li><a href="#">Service B1</a></li>
+                                    <li><a href="#">Service B2</a></li>
+                                </ul>
+                            </div>
+                            <div class="Sub-menu">
+                                <p class="heading">C</p>
+                                <ul>
+                                    <li><a href="#">Service C1</a></li>
+                                    <li><a href="#">Service C2</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </li>
                     <li><a href="services.html">Services</a></li>
-                    <li><a href="project.html">Case Study</a></li>
                     <li><a href="contact-us.html">Contact Us</a></li>
+                    <li><a href="project.html">Case Study</a></li>
                     <li><a href="#" class="btn secondary-solid-btn check-btn">Free Check</a></li>
                 </ul>
             </div>

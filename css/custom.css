@@ -1,5 +1,120 @@
+.dropdown-content {
+    visibility: hidden;
+    opacity: 0;
+}
+
+.dropdown:hover .dropdown-content {
+    visibility:visible;
+    opacity: 1.0;
+}
+
+
+
 
 
 .video-card{
+
+}
+.custom-logo{
+    height: 75px;
+}
+
+/* Basic styles for the dropdown menu */
+/* Basic styles for the dropdown menu */
+
+
+
+/* Dropdown styles */
+.dropdown {
+     position: relative;
+}
+.Sub-menu ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.Sub-menu ul li {
+    /* display: inline-block; */
+    margin: 0 10px; /* Adjust the margin as needed */
+}
+/* Create a red background box with equal width on both sides */
+.dropdown-content {
+     /* display: none;  */
+    display: flex;
+    justify-content: space-around;
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color:white;
+    width: 800px;
+    border-radius: 25px;
+    height: 300px; /* Adjust the total width as needed */
+}
+.dropdown-content{
+    background: rgb(131,58,180);
+background: -moz-linear-gradient(90deg, rgba(131,58,180,1) 28%, rgba(253,29,29,1) 45%, rgba(252,176,69,1) 67%);
+background: -webkit-linear-gradient(90deg, rgba(131,58,180,1) 28%, rgba(253,29,29,1) 45%, rgba(252,176,69,1) 67%);
+background: linear-gradient(90deg, rgba(131,58,180,1) 28%, rgba(253,29,29,1) 45%, rgba(252,176,69,1) 67%);
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#833ab4",endColorstr="#fcb045",GradientType=1);
+}
+
+.inner-content{
+    background-color: gray;
+}
+/* Display the dropdown content when hovering over the dropdown */
+.dropdown:hover .dropdown-content {
+    /* display: block; *//
     
 }
+
+
+.dropdown-content .sub-menu {
+    /* display: flex;
+    justify-content: space-between; */
+    padding: 10px;
+}
+
+/* Center the content inside the dropdown box */
+.Sub-menu {
+    /* display: flex; */
+    
+    
+    padding: 10px;
+}
+
+
+.Sub-menu p {
+    font-weight: bold;
+    font-size: 1.2rem;
+    color:black;
+    margin: 0;
+    text-align: center; /* Center the text horizontally */
+}
+
+
+
+/* Styles for the custom heading class */
+.heading {
+    
+    font-weight: bold;
+    font-size: 1.2rem;
+    color: #333;
+}
+
+/* Responsive styles */
+/* @media screen and (max-width: 600px) {
+    .menu li {
+        display: block;
+        margin: 0;
+    }
+    .dropdown-content {
+        position: static;
+        display: none;
+    }
+    .Sub-menu {
+        padding: 10px 0;
+    }
+} */
+
+
