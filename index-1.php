@@ -1,7 +1,7 @@
 <!doctype html>
 <html lang="en">
 
-<!-- Mirrored from digimark.themetags.com/index.html by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 02 Nov 2023 12:08:40 GMT -->
+<!-- Mirrored from digimark.themetags.com/index.php by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 02 Nov 2023 12:08:40 GMT -->
 
 <head>
     <meta charset="utf-8">
@@ -104,7 +104,7 @@
         <!--start navbar-->
         <nav class="navbar navbar-expand-lg fixed-top white-bg">
             <div class="container">
-                <a class="navbar-brand" href="index.html">
+                <a class="navbar-brand" href="index.php">
                     <img src="img/logo-color.png" alt="logo" class="img-fluid" />
                 </a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -114,62 +114,62 @@
                     <ul class="navbar-nav ml-auto menu">
                         <li><a href="#" class="dropdown-toggle"> Home</a>
                             <ul class="sub-menu">
-                                <li><a href="index.html">Home Page 01</a></li>
-                                <li><a href="index-2.html">Home Page 02</a></li>
-                                <li><a href="index-3.html">Home Page 03</a></li>
-                                <li><a href="index-4.html">Home Page 04</a></li>
-                                <li><a href="index-5.html">Home Page 05</a></li>
-                                <li><a href="index-6.html">Home Page 06</a></li>
-                                <li><a href="index-7.html">Home Page 07 <span class="badge badge-warning ml-2">New</span></a></li>
+                                <li><a href="index.php">Home Page 01</a></li>
+                                <li><a href="index-2.php">Home Page 02</a></li>
+                                <li><a href="index-3.php">Home Page 03</a></li>
+                                <li><a href="index-4.php">Home Page 04</a></li>
+                                <li><a href="index-5.php">Home Page 05</a></li>
+                                <li><a href="index-6.php">Home Page 06</a></li>
+                                <li><a href="index-7.php">Home Page 07 <span class="badge badge-warning ml-2">New</span></a></li>
                             </ul>
                         </li>
-                        <li><a href="about-us.html">About Us</a></li>
+                        <li><a href="about-us.php">About Us</a></li>
                         <li><a href="#" class="dropdown-toggle">Pages</a>
                             <ul class="sub-menu">
                                 <li><a href="#" class="dropdown-toggle-inner">Login & Sign Up</a>
                                     <ul class="sub-menu">
-                                        <li><a href="basic-login.html">Login Page 1</a></li>
-                                        <li><a href="login.html">Login Page 2</a></li>
-                                        <li><a href="basic-sign-up.html">Signup Page 1</a></li>
-                                        <li><a href="sign-up.html">Signup Page 2</a></li>
-                                        <li><a href="password-reset.html">Reset Password</a></li>
-                                        <li><a href="change-password.html">Change Password</a></li>
+                                        <li><a href="basic-login.php">Login Page 1</a></li>
+                                        <li><a href="login.php">Login Page 2</a></li>
+                                        <li><a href="basic-sign-up.php">Signup Page 1</a></li>
+                                        <li><a href="sign-up.php">Signup Page 2</a></li>
+                                        <li><a href="password-reset.php">Reset Password</a></li>
+                                        <li><a href="change-password.php">Change Password</a></li>
                                     </ul>
                                 </li>
                                 <li><a href="#" class="dropdown-toggle-inner">Utilities</a>
                                     <ul class="sub-menu">
-                                        <li><a href="download.html">Download Page</a></li>
-                                        <li><a href="review.html">Review Page</a></li>
-                                        <li><a href="faq.html">FAQ Page</a></li>
-                                        <li><a href="404.html">404 Page</a></li>
-                                        <li><a href="coming-soon.html">Coming Soon</a></li>
-                                        <li><a href="thank-you.html">Thank You Page</a></li>
+                                        <li><a href="download.php">Download Page</a></li>
+                                        <li><a href="review.php">Review Page</a></li>
+                                        <li><a href="faq.php">FAQ Page</a></li>
+                                        <li><a href="404.php">404 Page</a></li>
+                                        <li><a href="coming-soon.php">Coming Soon</a></li>
+                                        <li><a href="thank-you.php">Thank You Page</a></li>
                                     </ul>
                                 </li>
                                 <li><a href="#" class="dropdown-toggle-inner">Team</a>
                                     <ul class="sub-menu">
-                                        <li><a href="team.html">Our Team Members</a></li>
-                                        <li><a href="team-single.html">Team Member Profile</a></li>
+                                        <li><a href="team.php">Our Team Members</a></li>
+                                        <li><a href="team-single.php">Team Member Profile</a></li>
                                     </ul>
                                 </li>
                                 <li><a href="#" class="dropdown-toggle-inner">Our Blog</a>
                                     <ul class="sub-menu">
-                                        <li><a href="blog-default.html">Blog Grid</a></li>
-                                        <li><a href="blog-no-sidebar.html">Blog No Sidebar</a></li>
-                                        <li><a href="blog-left-sidebar.html">Blog Left Sidebar</a></li>
-                                        <li><a href="blog-right-sidebar.html">Blog Right Sidebar</a></li>
-                                        <li><a href="blog-right-sidebar-2.html">Blog Right Sidebar 02</a></li>
-                                        <li><a href="blog-single-left-sidebar.html">Details Left Sidebar</a></li>
-                                        <li><a href="blog-single-right-sidebar.html">Details Right Sidebar</a></li>
+                                        <li><a href="blog-default.php">Blog Grid</a></li>
+                                        <li><a href="blog-no-sidebar.php">Blog No Sidebar</a></li>
+                                        <li><a href="blog-left-sidebar.php">Blog Left Sidebar</a></li>
+                                        <li><a href="blog-right-sidebar.php">Blog Right Sidebar</a></li>
+                                        <li><a href="blog-right-sidebar-2.php">Blog Right Sidebar 02</a></li>
+                                        <li><a href="blog-single-left-sidebar.php">Details Left Sidebar</a></li>
+                                        <li><a href="blog-single-right-sidebar.php">Details Right Sidebar</a></li>
                                     </ul>
                                 </li>
-                                <li><a href="project-details.html">Project Details </a></li>
-                                <li><a href="services-details.html">Services Details</a></li>
+                                <li><a href="project-details.php">Project Details </a></li>
+                                <li><a href="services-details.php">Services Details</a></li>
                             </ul>
                         </li>
-                        <li><a href="services.html">Services</a></li>
-                        <li><a href="project.html">Case Study</a></li>
-                        <li><a href="contact-us.html">Contact Us</a></li>
+                        <li><a href="services.php">Services</a></li>
+                        <li><a href="project.php">Case Study</a></li>
+                        <li><a href="contact-us.php">Contact Us</a></li>
                         <li><a href="#" class="btn secondary-solid-btn check-btn">Free Check</a></li>
                     </ul>
                 </div>
@@ -391,7 +391,7 @@
                             <p class="mb-0">Progressively empower business "outside the box" thinking with
                                 resource-leveling
                                 partnerships.</p>
-                            <a href="services-details.html" target="_blank" class="detail-link mt-4">Read more <span class="ti-arrow-right"></span></a>
+                            <a href="services-details.php" target="_blank" class="detail-link mt-4">Read more <span class="ti-arrow-right"></span></a>
                         </div>
                     </div>
                     <div class="col-lg-4 col-md-6 col-sm-6">
@@ -401,7 +401,7 @@
                             <p class="mb-0">Progressively empower business "outside the box" thinking with
                                 resource-leveling
                                 partnerships.</p>
-                            <a href="services-details.html" target="_blank" class="detail-link mt-4">Read more <span class="ti-arrow-right"></span></a>
+                            <a href="services-details.php" target="_blank" class="detail-link mt-4">Read more <span class="ti-arrow-right"></span></a>
                         </div>
                     </div>
                     <div class="col-lg-4 col-md-6 col-sm-6">
@@ -411,7 +411,7 @@
                             <p class="mb-0">Progressively empower business "outside the box" thinking with
                                 resource-leveling
                                 partnerships.</p>
-                            <a href="services-details.html" target="_blank" class="detail-link mt-4">Read more <span class="ti-arrow-right"></span></a>
+                            <a href="services-details.php" target="_blank" class="detail-link mt-4">Read more <span class="ti-arrow-right"></span></a>
                         </div>
                     </div>
                     <div class="col-lg-4 col-md-6 col-sm-6">
@@ -421,7 +421,7 @@
                             <p class="mb-0">Progressively empower business "outside the box" thinking with
                                 resource-leveling
                                 partnerships.</p>
-                            <a href="services-details.html" target="_blank" class="detail-link mt-4">Read more <span class="ti-arrow-right"></span></a>
+                            <a href="services-details.php" target="_blank" class="detail-link mt-4">Read more <span class="ti-arrow-right"></span></a>
                         </div>
                     </div>
                     <div class="col-lg-4 col-md-6 col-sm-6">
@@ -431,7 +431,7 @@
                             <p class="mb-0">Progressively empower business "outside the box" thinking with
                                 resource-leveling
                                 partnerships.</p>
-                            <a href="services-details.html" target="_blank" class="detail-link mt-4">Read more <span class="ti-arrow-right"></span></a>
+                            <a href="services-details.php" target="_blank" class="detail-link mt-4">Read more <span class="ti-arrow-right"></span></a>
                         </div>
                     </div>
                     <div class="col-lg-4 col-md-6 col-sm-6">
@@ -441,7 +441,7 @@
                             <p class="mb-0">Progressively empower business "outside the box" thinking with
                                 resource-leveling
                                 partnerships.</p>
-                            <a href="services-details.html" target="_blank" class="detail-link mt-4">Read more <span class="ti-arrow-right"></span></a>
+                            <a href="services-details.php" target="_blank" class="detail-link mt-4">Read more <span class="ti-arrow-right"></span></a>
                         </div>
                     </div>
                 </div>
@@ -886,7 +886,7 @@
                                                     thinking
                                                     with resource-leveling
                                                     partnerships.</p>
-                                                <a href="services-details.html" target="_blank" class="detail-link mt-4">Read
+                                                <a href="services-details.php" target="_blank" class="detail-link mt-4">Read
                                                     more <span class="ti-arrow-right"></span></a>
                                             </div>
                                         </div>
@@ -898,7 +898,7 @@
                                                     thinking
                                                     with resource-leveling
                                                     partnerships.</p>
-                                                <a href="services-details.html" target="_blank" class="detail-link mt-4">Read
+                                                <a href="services-details.php" target="_blank" class="detail-link mt-4">Read
                                                     more <span class="ti-arrow-right"></span></a>
                                             </div>
                                         </div>
@@ -910,7 +910,7 @@
                                                     thinking
                                                     with resource-leveling
                                                     partnerships.</p>
-                                                <a href="services-details.html" target="_blank" class="detail-link mt-4">Read
+                                                <a href="services-details.php" target="_blank" class="detail-link mt-4">Read
                                                     more <span class="ti-arrow-right"></span></a>
                                             </div>
                                         </div>
@@ -922,7 +922,7 @@
                                                     thinking
                                                     with resource-leveling
                                                     partnerships.</p>
-                                                <a href="services-details.html" target="_blank" class="detail-link mt-4">Read
+                                                <a href="services-details.php" target="_blank" class="detail-link mt-4">Read
                                                     more <span class="ti-arrow-right"></span></a>
                                             </div>
                                         </div>
@@ -934,7 +934,7 @@
                                                     thinking
                                                     with resource-leveling
                                                     partnerships.</p>
-                                                <a href="services-details.html" target="_blank" class="detail-link mt-4">Read
+                                                <a href="services-details.php" target="_blank" class="detail-link mt-4">Read
                                                     more <span class="ti-arrow-right"></span></a>
                                             </div>
                                         </div>
@@ -946,7 +946,7 @@
                                                     thinking
                                                     with resource-leveling
                                                     partnerships.</p>
-                                                <a href="services-details.html" target="_blank" class="detail-link mt-4">Read
+                                                <a href="services-details.php" target="_blank" class="detail-link mt-4">Read
                                                     more <span class="ti-arrow-right"></span></a>
                                             </div>
                                         </div>
@@ -996,7 +996,7 @@
                         <div class="portfolio-container" id="MixItUp">
                             <div class="mix portfolio-item branding" data-ref="mixitup-target">
                                 <div class="portfolio-wrapper">
-                                    <a href="project-details.html" target="_blank">
+                                    <a href="project-details.php" target="_blank">
                                         <div class="content-overlay"></div>
                                         <img class="img-fluid" src="img/portfolios/3.jpg" alt="portfolio" />
                                         <div class="content-details fadeIn-bottom text-white">
@@ -1012,7 +1012,7 @@
                             </div>
                             <div class="mix portfolio-item other animation" data-ref="mixitup-target">
                                 <div class="portfolio-wrapper">
-                                    <a href="project-details.html" target="_blank">
+                                    <a href="project-details.php" target="_blank">
                                         <div class="content-overlay"></div>
                                         <img class="img-fluid" src="img/portfolios/2.jpg" alt="portfolio" />
                                         <div class="content-details fadeIn-bottom text-white">
@@ -1028,7 +1028,7 @@
                             </div>
                             <div class="mix portfolio-item animation" data-ref="mixitup-target">
                                 <div class="portfolio-wrapper">
-                                    <a href="project-details.html" target="_blank">
+                                    <a href="project-details.php" target="_blank">
                                         <div class="content-overlay"></div>
                                         <img class="img-fluid" src="img/portfolios/4.jpg" alt="portfolio" />
                                         <div class="content-details fadeIn-bottom text-white">
@@ -1044,7 +1044,7 @@
                             </div>
                             <div class="mix portfolio-item branding" data-ref="mixitup-target">
                                 <div class="portfolio-wrapper">
-                                    <a href="project-details.html" target="_blank">
+                                    <a href="project-details.php" target="_blank">
                                         <div class="content-overlay"></div>
                                         <img class="img-fluid" src="img/portfolios/1.jpg" alt="portfolio" />
                                         <div class="content-details fadeIn-bottom text-white">
@@ -1060,7 +1060,7 @@
                             </div>
                             <div class="mix portfolio-item animation other" data-ref="mixitup-target">
                                 <div class="portfolio-wrapper">
-                                    <a href="project-details.html" target="_blank">
+                                    <a href="project-details.php" target="_blank">
                                         <div class="content-overlay"></div>
                                         <img class="img-fluid" src="img/portfolios/5.jpg" alt="portfolio" />
                                         <div class="content-details fadeIn-bottom text-white">
@@ -1076,7 +1076,7 @@
                             </div>
                             <div class="mix portfolio-item branding " data-ref="mixitup-target">
                                 <div class="portfolio-wrapper">
-                                    <a href="project-details.html" target="_blank">
+                                    <a href="project-details.php" target="_blank">
                                         <div class="content-overlay"></div>
                                         <img class="img-fluid" src="img/portfolios/6.jpg" alt="portfolio" />
                                         <div class="content-details fadeIn-bottom text-white">
@@ -1829,6 +1829,6 @@
     <script src="js/scripts.js"></script>
 </body>
 
-<!-- Mirrored from digimark.themetags.com/index.html by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 02 Nov 2023 12:08:53 GMT -->
+<!-- Mirrored from digimark.themetags.com/index.php by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 02 Nov 2023 12:08:53 GMT -->
 
 </html>

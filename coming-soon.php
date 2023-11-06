@@ -1,7 +1,7 @@
 <!doctype html>
 <html lang="en">
 
-<!-- Mirrored from digimark.themetags.com/coming-soon.html by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 02 Nov 2023 12:09:15 GMT -->
+<!-- Mirrored from digimark.themetags.com/coming-soon.php by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 02 Nov 2023 12:09:15 GMT -->
 
 <head>
     <meta charset="utf-8">
@@ -131,6 +131,6 @@
     <script src="js/scripts.js"></script>
 </body>
 
-<!-- Mirrored from digimark.themetags.com/coming-soon.html by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 02 Nov 2023 12:09:18 GMT -->
+<!-- Mirrored from digimark.themetags.com/coming-soon.php by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 02 Nov 2023 12:09:18 GMT -->
 
 </html>

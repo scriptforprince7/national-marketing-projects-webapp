@@ -1,7 +1,7 @@
 <!doctype html>
 <html lang="en">
 
-<!-- Mirrored from digimark.themetags.com/index.html by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 02 Nov 2023 12:08:40 GMT -->
+<!-- Mirrored from digimark.themetags.com/index.php by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 02 Nov 2023 12:08:40 GMT -->
 
 <head>
     <meta charset="utf-8">
@@ -308,7 +308,7 @@
                             <h5>Digital Marketing</h5>
                             <p class="mb-0">Progressively empower business "outside the box" thinking with resource-leveling
                                 partnerships.</p>
-                            <a href="services-details.html" target="_blank" class="detail-link mt-4">Read more <span class="ti-arrow-right"></span></a>
+                            <a href="services-details.php" target="_blank" class="detail-link mt-4">Read more <span class="ti-arrow-right"></span></a>
                         </div>
                     </div>
                     <div class="col-lg-4 col-md-6 col-sm-6">
@@ -317,7 +317,7 @@
                             <h5>Content Marketing</h5>
                             <p class="mb-0">Progressively empower business "outside the box" thinking with resource-leveling
                                 partnerships.</p>
-                            <a href="services-details.html" target="_blank" class="detail-link mt-4">Read more <span class="ti-arrow-right"></span></a>
+                            <a href="services-details.php" target="_blank" class="detail-link mt-4">Read more <span class="ti-arrow-right"></span></a>
                         </div>
                     </div>
                     <div class="col-lg-4 col-md-6 col-sm-6">
@@ -326,7 +326,7 @@
                             <h5>Social Media Marketing</h5>
                             <p class="mb-0">Progressively empower business "outside the box" thinking with resource-leveling
                                 partnerships.</p>
-                            <a href="services-details.html" target="_blank" class="detail-link mt-4">Read more <span class="ti-arrow-right"></span></a>
+                            <a href="services-details.php" target="_blank" class="detail-link mt-4">Read more <span class="ti-arrow-right"></span></a>
                         </div>
                     </div>
                     <div class="col-lg-4 col-md-6 col-sm-6">
@@ -335,7 +335,7 @@
                             <h5>SEO Services</h5>
                             <p class="mb-0">Progressively empower business "outside the box" thinking with resource-leveling
                                 partnerships.</p>
-                            <a href="services-details.html" target="_blank" class="detail-link mt-4">Read more <span class="ti-arrow-right"></span></a>
+                            <a href="services-details.php" target="_blank" class="detail-link mt-4">Read more <span class="ti-arrow-right"></span></a>
                         </div>
                     </div>
                     <div class="col-lg-4 col-md-6 col-sm-6">
@@ -344,7 +344,7 @@
                             <h5>Email Marketing</h5>
                             <p class="mb-0">Progressively empower business "outside the box" thinking with resource-leveling
                                 partnerships.</p>
-                            <a href="services-details.html" target="_blank" class="detail-link mt-4">Read more <span class="ti-arrow-right"></span></a>
+                            <a href="services-details.php" target="_blank" class="detail-link mt-4">Read more <span class="ti-arrow-right"></span></a>
                         </div>
                     </div>
                     <div class="col-lg-4 col-md-6 col-sm-6">
@@ -353,7 +353,7 @@
                             <h5>Creative Consultancy</h5>
                             <p class="mb-0">Progressively empower business "outside the box" thinking with resource-leveling
                                 partnerships.</p>
-                            <a href="services-details.html" target="_blank" class="detail-link mt-4">Read more <span class="ti-arrow-right"></span></a>
+                            <a href="services-details.php" target="_blank" class="detail-link mt-4">Read more <span class="ti-arrow-right"></span></a>
                         </div>
                     </div>
                 </div>
@@ -779,7 +779,7 @@
                                                 <p class="mb-0">Progressively empower business "outside the box" thinking
                                                     with resource-leveling
                                                     partnerships.</p>
-                                                <a href="services-details.html" target="_blank" class="detail-link mt-4">Read
+                                                <a href="services-details.php" target="_blank" class="detail-link mt-4">Read
                                                     more <span class="ti-arrow-right"></span></a>
                                             </div>
                                         </div>
@@ -790,7 +790,7 @@
                                                 <p class="mb-0">Progressively empower business "outside the box" thinking
                                                     with resource-leveling
                                                     partnerships.</p>
-                                                <a href="services-details.html" target="_blank" class="detail-link mt-4">Read
+                                                <a href="services-details.php" target="_blank" class="detail-link mt-4">Read
                                                     more <span class="ti-arrow-right"></span></a>
                                             </div>
                                         </div>
@@ -801,7 +801,7 @@
                                                 <p class="mb-0">Progressively empower business "outside the box" thinking
                                                     with resource-leveling
                                                     partnerships.</p>
-                                                <a href="services-details.html" target="_blank" class="detail-link mt-4">Read
+                                                <a href="services-details.php" target="_blank" class="detail-link mt-4">Read
                                                     more <span class="ti-arrow-right"></span></a>
                                             </div>
                                         </div>
@@ -812,7 +812,7 @@
                                                 <p class="mb-0">Progressively empower business "outside the box" thinking
                                                     with resource-leveling
                                                     partnerships.</p>
-                                                <a href="services-details.html" target="_blank" class="detail-link mt-4">Read
+                                                <a href="services-details.php" target="_blank" class="detail-link mt-4">Read
                                                     more <span class="ti-arrow-right"></span></a>
                                             </div>
                                         </div>
@@ -823,7 +823,7 @@
                                                 <p class="mb-0">Progressively empower business "outside the box" thinking
                                                     with resource-leveling
                                                     partnerships.</p>
-                                                <a href="services-details.html" target="_blank" class="detail-link mt-4">Read
+                                                <a href="services-details.php" target="_blank" class="detail-link mt-4">Read
                                                     more <span class="ti-arrow-right"></span></a>
                                             </div>
                                         </div>
@@ -834,7 +834,7 @@
                                                 <p class="mb-0">Progressively empower business "outside the box" thinking
                                                     with resource-leveling
                                                     partnerships.</p>
-                                                <a href="services-details.html" target="_blank" class="detail-link mt-4">Read
+                                                <a href="services-details.php" target="_blank" class="detail-link mt-4">Read
                                                     more <span class="ti-arrow-right"></span></a>
                                             </div>
                                         </div>
@@ -883,7 +883,7 @@
                         <div class="portfolio-container" id="MixItUp">
                             <div class="mix portfolio-item branding" data-ref="mixitup-target">
                                 <div class="portfolio-wrapper">
-                                    <a href="project-details.html" target="_blank">
+                                    <a href="project-details.php" target="_blank">
                                         <div class="content-overlay"></div>
                                         <img class="img-fluid" src="img/portfolios/3.jpg" alt="portfolio" />
                                         <div class="content-details fadeIn-bottom text-white">
@@ -899,7 +899,7 @@
                             </div>
                             <div class="mix portfolio-item other animation" data-ref="mixitup-target">
                                 <div class="portfolio-wrapper">
-                                    <a href="project-details.html" target="_blank">
+                                    <a href="project-details.php" target="_blank">
                                         <div class="content-overlay"></div>
                                         <img class="img-fluid" src="img/portfolios/2.jpg" alt="portfolio" />
                                         <div class="content-details fadeIn-bottom text-white">
@@ -915,7 +915,7 @@
                             </div>
                             <div class="mix portfolio-item animation" data-ref="mixitup-target">
                                 <div class="portfolio-wrapper">
-                                    <a href="project-details.html" target="_blank">
+                                    <a href="project-details.php" target="_blank">
                                         <div class="content-overlay"></div>
                                         <img class="img-fluid" src="img/portfolios/4.jpg" alt="portfolio" />
                                         <div class="content-details fadeIn-bottom text-white">
@@ -931,7 +931,7 @@
                             </div>
                             <div class="mix portfolio-item branding" data-ref="mixitup-target">
                                 <div class="portfolio-wrapper">
-                                    <a href="project-details.html" target="_blank">
+                                    <a href="project-details.php" target="_blank">
                                         <div class="content-overlay"></div>
                                         <img class="img-fluid" src="img/portfolios/1.jpg" alt="portfolio" />
                                         <div class="content-details fadeIn-bottom text-white">
@@ -947,7 +947,7 @@
                             </div>
                             <div class="mix portfolio-item animation other" data-ref="mixitup-target">
                                 <div class="portfolio-wrapper">
-                                    <a href="project-details.html" target="_blank">
+                                    <a href="project-details.php" target="_blank">
                                         <div class="content-overlay"></div>
                                         <img class="img-fluid" src="img/portfolios/5.jpg" alt="portfolio" />
                                         <div class="content-details fadeIn-bottom text-white">
@@ -963,7 +963,7 @@
                             </div>
                             <div class="mix portfolio-item branding " data-ref="mixitup-target">
                                 <div class="portfolio-wrapper">
-                                    <a href="project-details.html" target="_blank">
+                                    <a href="project-details.php" target="_blank">
                                         <div class="content-overlay"></div>
                                         <img class="img-fluid" src="img/portfolios/6.jpg" alt="portfolio" />
                                         <div class="content-details fadeIn-bottom text-white">
@@ -1589,6 +1589,6 @@
     <script src="js/scripts.js"></script>
 </body>
 
-<!-- Mirrored from digimark.themetags.com/index.html by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 02 Nov 2023 12:08:53 GMT -->
+<!-- Mirrored from digimark.themetags.com/index.php by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 02 Nov 2023 12:08:53 GMT -->
 
 </html>

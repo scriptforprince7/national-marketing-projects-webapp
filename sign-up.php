@@ -1,7 +1,7 @@
 <!doctype html>
 <html lang="en">
 
-<!-- Mirrored from digimark.themetags.com/sign-up.html by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 02 Nov 2023 12:09:10 GMT -->
+<!-- Mirrored from digimark.themetags.com/sign-up.php by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 02 Nov 2023 12:09:10 GMT -->
 
 <head>
     <meta charset="utf-8">
@@ -156,7 +156,7 @@
                                 <!-- Link -->
                                 <div class="text-center">
                                     <small class="text-muted text-center">
-                                        Already have an account? <a href="login.html">Log in</a>.
+                                        Already have an account? <a href="login.php">Log in</a>.
                                     </small>
                                 </div>
 
@@ -203,6 +203,6 @@
     <script src="js/scripts.js"></script>
 </body>
 
-<!-- Mirrored from digimark.themetags.com/sign-up.html by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 02 Nov 2023 12:09:10 GMT -->
+<!-- Mirrored from digimark.themetags.com/sign-up.php by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 02 Nov 2023 12:09:10 GMT -->
 
 </html>

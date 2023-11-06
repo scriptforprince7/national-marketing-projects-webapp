@@ -1,7 +1,7 @@
 <!doctype html>
 <html lang="en">
 
-<!-- Mirrored from digimark.themetags.com/404.html by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 02 Nov 2023 12:09:14 GMT -->
+<!-- Mirrored from digimark.themetags.com/404.php by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 02 Nov 2023 12:09:14 GMT -->
 
 <head>
     <meta charset="utf-8">
@@ -81,7 +81,7 @@
                             <h2 class="text-white">Sorry, something went wrong</h2>
                             <p class="lead">The page you are looking for might have been removed had its name changed or
                                 is temporarily
-                                unavailable.</p><a class="btn outline-white-btn" href="index.html">Go to Homepage</a>
+                                unavailable.</p><a class="btn outline-white-btn" href="index.php">Go to Homepage</a>
                         </div>
                     </div>
                 </div>
@@ -124,6 +124,6 @@
     <script src="js/scripts.js"></script>
 </body>
 
-<!-- Mirrored from digimark.themetags.com/404.html by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 02 Nov 2023 12:09:15 GMT -->
+<!-- Mirrored from digimark.themetags.com/404.php by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 02 Nov 2023 12:09:15 GMT -->
 
 </html>

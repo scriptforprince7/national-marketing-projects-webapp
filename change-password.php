@@ -1,7 +1,7 @@
 <!doctype html>
 <html lang="en">
 
-<!-- Mirrored from digimark.themetags.com/change-password.html by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 02 Nov 2023 12:09:11 GMT -->
+<!-- Mirrored from digimark.themetags.com/change-password.php by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 02 Nov 2023 12:09:11 GMT -->
 
 <head>
     <meta charset="utf-8">
@@ -131,7 +131,7 @@
                                 <!-- Link -->
                                 <div class="text-center">
                                     <small class="text-muted text-center">
-                                        Remember your password? <a href="login.html">Log in</a>.
+                                        Remember your password? <a href="login.php">Log in</a>.
                                     </small>
                                 </div>
 
@@ -178,6 +178,6 @@
     <script src="js/scripts.js"></script>
 </body>
 
-<!-- Mirrored from digimark.themetags.com/change-password.html by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 02 Nov 2023 12:09:13 GMT -->
+<!-- Mirrored from digimark.themetags.com/change-password.php by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 02 Nov 2023 12:09:13 GMT -->
 
 </html>

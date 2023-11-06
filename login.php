@@ -1,7 +1,7 @@
 <!doctype html>
 <html lang="en">
 
-<!-- Mirrored from digimark.themetags.com/login.html by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 02 Nov 2023 12:09:07 GMT -->
+<!-- Mirrored from digimark.themetags.com/login.php by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 02 Nov 2023 12:09:07 GMT -->
 
 <head>
     <meta charset="utf-8">
@@ -116,7 +116,7 @@
                                             <label class="pb-1">Password</label>
                                         </div>
                                         <div class="col-auto">
-                                            <a href="password-reset.html" class="form-text small text-muted">
+                                            <a href="password-reset.php" class="form-text small text-muted">
                                                 Forgot password?
                                             </a>
                                         </div>
@@ -137,7 +137,7 @@
                                 <!-- Link -->
                                 <p class="text-center">
                                     <small class="text-muted text-center">
-                                        Don't have an account yet? <a href="sign-up.html">Sign up</a>.
+                                        Don't have an account yet? <a href="sign-up.php">Sign up</a>.
                                     </small>
                                 </p>
 
@@ -184,6 +184,6 @@
     <script src="js/scripts.js"></script>
 </body>
 
-<!-- Mirrored from digimark.themetags.com/login.html by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 02 Nov 2023 12:09:10 GMT -->
+<!-- Mirrored from digimark.themetags.com/login.php by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 02 Nov 2023 12:09:10 GMT -->
 
 </html>
