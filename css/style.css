@@ -802,7 +802,7 @@ select.form-control.has-value {
 
 .menu li {
   display: inline-block;
-  position: relative;
+  /* position: relative; */
 }
 
 .menu li:first-child {
@@ -833,12 +833,14 @@ select.form-control.has-value {
   opacity: 0;
   margin: 0;
   padding: 0;
-  width: 200px;
+  width: 70%;
+  height: 350px;
+  border-radius: 100px;
   position: absolute;
-  left: 0;
+  left:20%;
   background: #fff;
   z-index: 9;
-  border-radius: 4px;
+  border-radius: 40px;
   transform: translate(0, 20px);
   transition: all 0.3s ease-out;
   -webkit-box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
@@ -860,7 +862,7 @@ select.form-control.has-value {
   margin-left: -8px;
 }
 .menu li a.dropdown-toggle::after {
-  position: relative;
+  position: absolute;
   left: 2px;
   vertical-align: middle;
 }
@@ -876,11 +878,11 @@ select.form-control.has-value {
 }
 
 .menu ul li {
-  display: block;
+  display: inline-block;
   float: none;
   background: none;
-  margin: 0;
-  padding: 0;
+  margin: 8px;
+  padding: 8px;
 }
 
 .menu ul li a {

@@ -42,7 +42,7 @@
             <div class="collapse navbar-collapse h-auto" id="navbarSupportedContent">
                 <ul class="navbar-nav ml-auto menu">
                     <li><a href="#" class="dropdown-toggle"> Home</a>
-                        <ul class="Sub-menu">
+                        <!-- <ul class="Sub-menu">
                             <li><a href="index.php">Home Page 01</a></li>
                             <li><a href="index-2.php">Home Page 02</a></li>
                             <li><a href="index-3.php">Home Page 03</a></li>
@@ -50,83 +50,56 @@
                             <li><a href="index-5.php">Home Page 05</a></li>
                             <li><a href="index-6.php">Home Page 06</a></li>
                             <li><a href="index-7.php">Home Page 07 <span class="badge badge-warning ml-2">New</span></a></li>
-                        </ul>
+                        </ul> -->
                     </li>
                     <li><a href="about-us.php">About Us</a></li>
-                    <li><a href="#" class="dropdown-toggle">Pages</a>
+                    <li><a href="#" class="dropdown-toggle">Service</a>
                         <ul class="Sub-menu">
-                            <li><a href="#" class="dropdown-toggle-inner">Login & Sign Up</a>
-                                <ul class="Sub-menu">
-                                    <li><a href="basic-login.php">Login Page 1</a></li>
-                                    <li><a href="login.php">Login Page 2</a></li>
-                                    <li><a href="basic-sign-up.php">Signup Page 1</a></li>
-                                    <li><a href="sign-up.php">Signup Page 2</a></li>
-                                    <li><a href="password-reset.php">Reset Password</a></li>
-                                    <li><a href="change-password.php">Change Password</a></li>
+                            <div class="sub-class">
+
+                                <ul>
+                                    <li>
+                                        <h5 class="">Digital marketing</h5>
+                                    </li>
+                                    <li>
+                                        <h5 class="">Web Services</h5>
+                                    </li>
+                                    <li>
+                                        <h5 class="">Video Service</h5>
+                                    </li>
+                                    <li>
+                                        <h5 class="">Advance Marketing</h5>
+                                    </li>
+                                    <li>
+                                        <h5 class="">Other services</h5>
+                                    </li>
+
                                 </ul>
+                            </div>
+
+
+
+
+
+
+                            <!-- <li>
+                                <a href="services-details.php">Services Details</a></li> -->
+                            <li>
+                                <img class="hover-imgage" src="img\blog\diggity-marketing-SB0WARG16HI-unsplash.jpg">
+
+
+
                             </li>
-                            <li><a href="#" class="dropdown-toggle-inner">Utilities</a>
-                                <ul class="Sub-menu">
-                                    <li><a href="download.php">Download Page</a></li>
-                                    <li><a href="review.php">Review Page</a></li>
-                                    <li><a href="faq.php">FAQ Page</a></li>
-                                    <li><a href="404.php">404 Page</a></li>
-                                    <li><a href="coming-soon.php">Coming Soon</a></li>
-                                    <li><a href="thank-you.php">Thank You Page</a></li>
-                                </ul>
-                            </li>
-                            <li><a href="#" class="dropdown-toggle-inner">Team</a>
-                                <ul class="Sub-menu">
-                                    <li><a href="team.php">Our Team Members</a></li>
-                                    <li><a href="team-single.php">Team Member Profile</a></li>
-                                </ul>
-                            </li>
-                            <li><a href="#" class="dropdown-toggle-inner">Our Blog</a>
-                                <ul class="Sub-menu">
-                                    <li><a href="blog-default.php">Blog Grid</a></li>
-                                    <li><a href="blog-no-sidebar.php">Blog No Sidebar</a></li>
-                                    <li><a href="blog-left-sidebar.php">Blog Left Sidebar</a></li>
-                                    <li><a href="blog-right-sidebar.php">Blog Right Sidebar</a></li>
-                                    <li><a href="blog-right-sidebar-2.php">Blog Right Sidebar 02</a></li>
-                                    <li><a href="blog-single-left-sidebar.php">Details Left Sidebar</a></li>
-                                    <li><a href="blog-single-right-sidebar.php">Details Right Sidebar</a></li>
-                                </ul>
-                            </li>
-                            <li><a href="project-details.php">Project Details </a></li>
-                            <li><a href="services-details.php">Services Details</a></li>
                         </ul>
+
                     </li>
 
 
 
 
-                    <li class="dropdown">
-                        <a href="#">Test-dropdown</a>
-                        <div class="dropdown-content">
-                            <div class="Sub-menu">
-                                <p class="heading">A</p>
-                                <ul>
-                                    <li><a href="#">Service A1</a></li>
-                                    <li><a href="#">Service A2</a></li>
-                                </ul>
-                            </div>
-                            <div class="Sub-menu">
-                                <p class="heading">B</p>
-                                <ul>
-                                    <li><a href="#">Service B1</a></li>
-                                    <li><a href="#">Service B2</a></li>
-                                </ul>
-                            </div>
-                            <div class="Sub-menu">
-                                <p class="heading">C</p>
-                                <ul>
-                                    <li><a href="#">Service C1</a></li>
-                                    <li><a href="#">Service C2</a></li>
-                                </ul>
-                            </div>
-                        </div>
-                    </li>
-                    <li><a href="services.php">Services</a></li>
+
+
+                    <li><a href="services.php">Awards</a></li>
                     <li><a href="contact-us.php">Contact Us</a></li>
                     <li><a href="project.php">Case Study</a></li>
                     <li><a href="#" class="btn secondary-solid-btn check-btn">Free Check</a></li>
@@ -135,3 +108,5 @@
         </div>
     </nav>
 </header>
+
+<!--  -->
