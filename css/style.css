@@ -1935,12 +1935,22 @@ select.form-control.has-value {
 
 .progress-line {
   background-color: #094571;
+  animation: progressBar 3s ease-in-out;
   -webkit-animation: progressBar 3s ease-in-out;
+  animation-fill-mode: both;
   -webkit-animation-fill-mode: both;
   -moz-animation: progressBar 3s ease-in-out;
   -moz-animation-fill-mode: both;
 }
 
+@keyframes progressBar {
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 100%;
+  }
+}
 @-webkit-keyframes progressBar {
   0% {
     width: 0;
@@ -3211,6 +3221,7 @@ a.detail-link:hover span {
   font-size: 30px;
   cursor: pointer;
   background: #ffffff;
+  transition: 0.5s;
   -webkit-transition: 0.5s;
   padding-left: 5px;
 }
@@ -3236,6 +3247,7 @@ a.video-play-icon-without-bip {
 a.video-play-icon-without-bip:hover {
   -webkit-animation: ripple-white 1s linear infinite;
   animation: ripple-white 1s linear infinite;
+  transition: 0.5s;
   -webkit-transition: 0.5s;
   background-color: #ceae58;
 }
@@ -3985,6 +3997,24 @@ a.video-play-icon-without-bip:hover {
   animation: thumb-scale-up-one 7s infinite linear;
 }
 
+@keyframes thumb-thumb-scale-up-one {
+  0% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+
+  40% {
+    -webkit-transform: scale(0.5);
+    transform: scale(0.5);
+  }
+
+  100% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+}
+
+
 @-webkit-keyframes thumb-thumb-scale-up-one {
   0% {
     -webkit-transform: scale(1);
@@ -4572,6 +4602,8 @@ a .single-promo-2 p {
 .google-map iframe {
   width: 100%;
   border: 0;
+  filter: grayscale(99%);
+  backface-visibility: hidden;
   -webkit-filter: grayscale(99%);
   -webkit-backface-visibility: hidden;
 }
@@ -5039,6 +5071,7 @@ button,
 [type="button"],
 [type="reset"],
 [type="submit"] {
+  appearance: button;
   -webkit-appearance: button;
 }
 .widget .widget-title {

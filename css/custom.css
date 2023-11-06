@@ -70,6 +70,7 @@
 /* Display the dropdown content when hovering over the dropdown */
 .dropdown:hover .dropdown-content {
   /* display: block; */
+  opacity: 1.0;
 }
 
 .dropdown-content .sub-menu {
