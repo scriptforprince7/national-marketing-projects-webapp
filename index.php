@@ -84,11 +84,17 @@
                     <div class="col-md-12 col-lg-7">
                         <div class="image-wrap pt-4">
                             <div class="video-card">
-                                <video autoplay loop poster="./img/banners/banner-03.jpeg" src="video/227f0bd22075cbbe7b1261cba00016cce67f42f0.mp4" id="bannerVideo"></video>
+                                <video autoplay loop poster="./img/banners/banner-03.jpeg" src="video/227f0bd22075cbbe7b1261cba00016cce67f42f0.mp4" id="bannerVideo">
+                                </video>
+                                <div class="video-control-container">
+                                    <div class="play-button-container">
+                                        <img src="./img/icons/play.svg" id="playPauseButton" alt="Play Button">
+                                    </div>
+                                    <div class="seek-bar-container">
+                                        <input type="range" id="seekBar" value="0" step="0.1">
+                                    </div>
+                                </div>
                             </div>
-                        </div>
-                        <div class="video-button-container">
-                            <img src="./img/icons/play-outline.png" height="250" id="playPauseButton" alt="Play Button">
                         </div>
                     </div>
                     <div class="col-md-12 col-lg-5">
@@ -103,23 +109,35 @@
                         </div>
                     </div>
 
+
                     <script>
                         const video = document.getElementById("bannerVideo");
                         const playPauseButton = document.getElementById("playPauseButton");
+                        const seekBar = document.getElementById("seekBar");
                         let isPlaying = false;
 
                         playPauseButton.addEventListener("click", () => {
                             if (isPlaying) {
                                 video.pause();
-                                playPauseButton.src = "./img/icons/play-outline.png"; // Set the image to the play icon
-                                // playPauseButton.width = "100";
+                                playPauseButton.src = "./img/icons/play.svg";
                                 isPlaying = false;
                             } else {
                                 video.play();
-                                playPauseButton.src = "./img/icons/pause-outline.png"; // Set the image to the pause icon
-                                // playPauseButton.width = "100";
+                                playPauseButton.src = "./img/icons/pause.svg";
                                 isPlaying = true;
                             }
+                        });
+
+                        video.addEventListener("timeupdate", () => {
+                            const currentTime = video.currentTime;
+                            const duration = video.duration;
+                            const percentage = (currentTime / duration) * 100;
+                            seekBar.value = percentage;
+                        });
+
+                        seekBar.addEventListener("input", () => {
+                            const seekToTime = (seekBar.value / 100) * video.duration;
+                            video.currentTime = seekToTime;
                         });
                     </script>
                 </div>
@@ -362,7 +380,7 @@
         <!--services section end-->
 
         <!-- drop-down section additional start-->
-           
+
         <!-- drop-down section additional end-->
 
         <!--why choose us section start-->
