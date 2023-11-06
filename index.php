@@ -51,7 +51,8 @@
     <link rel="stylesheet" href="css/responsive.css">
     <!--custom css-->
     <link rel="stylesheet" href="css/custom.css">
-
+    
+    
 
 </head>
 
@@ -68,6 +69,11 @@
         </div>
     </div>
     <!--loader end-->
+
+
+  <!-- Scroll Smoother -->
+  <div class="has-smooth" id="has_smooth"></div>
+
 
     <!--header section start-->
     <?php include 'includes/header.php' ?>
