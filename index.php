@@ -84,17 +84,17 @@
                     <div class="col-md-12 col-lg-7">
                         <div class="image-wrap pt-4">
                             <div class="video-card">
-                                <video poster="./video/video-banner.png" src="video/227f0bd22075cbbe7b1261cba00016cce67f42f0.mp4" id="bannerVideo"></video>
+                                <video autoplay loop poster="./img/banners/banner-03.jpeg" src="video/227f0bd22075cbbe7b1261cba00016cce67f42f0.mp4" id="bannerVideo"></video>
                             </div>
                         </div>
                         <div class="video-button-container">
-                            <img src="./img/icons/play-button.png" height="250" id="playPauseButton" alt="Play Button">
+                            <img src="./img/icons/play-outline.png" height="250" id="playPauseButton" alt="Play Button">
                         </div>
                     </div>
                     <div class="col-md-12 col-lg-5">
                         <div class="hero-text-card hero-slider-content pt-5">
                             <strong>Digital Marketing</strong>
-                            <h1>Grow Your Business With DigiMark</h1>
+                            <h1>Grow Your Business With <span style="color: #ceae58;">NMPI</span></h1>
                             <p class="lead">Holisticly procrastinate mission-critical convergence with reliable customer
                                 service. Assertively underwhelm for impactful solutions. </p>
                             <div class="action-btns mt-3">
@@ -111,12 +111,12 @@
                         playPauseButton.addEventListener("click", () => {
                             if (isPlaying) {
                                 video.pause();
-                                playPauseButton.src = "./img/icons/play-button.png"; // Set the image to the play icon
+                                playPauseButton.src = "./img/icons/play-outline.png"; // Set the image to the play icon
                                 // playPauseButton.width = "100";
                                 isPlaying = false;
                             } else {
                                 video.play();
-                                playPauseButton.src = "./img/icons/pause-button.png"; // Set the image to the pause icon
+                                playPauseButton.src = "./img/icons/pause-outline.png"; // Set the image to the pause icon
                                 // playPauseButton.width = "100";
                                 isPlaying = true;
                             }

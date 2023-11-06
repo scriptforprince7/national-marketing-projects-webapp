@@ -1,105 +1,103 @@
 .dropdown-content {
-    visibility: hidden;
-    opacity: 0;
+  visibility: hidden;
+  opacity: 0;
 }
 
 .dropdown:hover .dropdown-content {
-    visibility:visible;
-    opacity: 1.0;
+  visibility: visible;
+  opacity: 1;
 }
 
-
-
-
-
-.video-card{
-
-}
-.custom-logo{
-    height: 75px;
+.custom-logo {
+  height: 75px;
 }
 
 /* Basic styles for the dropdown menu */
-/* Basic styles for the dropdown menu */
-
-
 
 /* Dropdown styles */
 .dropdown {
-     position: relative;
+  position: relative;
 }
 .Sub-menu ul {
-    list-style-type: none;
-    padding: 0;
+  list-style-type: none;
+  padding: 0;
 }
 
 .Sub-menu ul li {
-    /* display: inline-block; */
-    margin: 0 10px; /* Adjust the margin as needed */
+  /* display: inline-block; */
+  margin: 0 10px; /* Adjust the margin as needed */
 }
 /* Create a red background box with equal width on both sides */
 .dropdown-content {
-     /* display: none;  */
-    display: flex;
-    justify-content: space-around;
-    position: absolute;
-    top: 100%;
-    left: 50%;
-    transform: translateX(-50%);
-    background-color:white;
-    width: 800px;
-    border-radius: 25px;
-    height: 300px; /* Adjust the total width as needed */
+  /* display: none;  */
+  display: flex;
+  justify-content: space-around;
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: white;
+  width: 800px;
+  border-radius: 25px;
+  height: 300px; /* Adjust the total width as needed */
 }
-.dropdown-content{
-    background: rgb(131,58,180);
-background: -moz-linear-gradient(90deg, rgba(131,58,180,1) 28%, rgba(253,29,29,1) 45%, rgba(252,176,69,1) 67%);
-background: -webkit-linear-gradient(90deg, rgba(131,58,180,1) 28%, rgba(253,29,29,1) 45%, rgba(252,176,69,1) 67%);
-background: linear-gradient(90deg, rgba(131,58,180,1) 28%, rgba(253,29,29,1) 45%, rgba(252,176,69,1) 67%);
-filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#833ab4",endColorstr="#fcb045",GradientType=1);
+.dropdown-content {
+  background: rgb(131, 58, 180);
+  background: -moz-linear-gradient(
+    90deg,
+    rgba(131, 58, 180, 1) 28%,
+    rgba(253, 29, 29, 1) 45%,
+    rgba(252, 176, 69, 1) 67%
+  );
+  background: -webkit-linear-gradient(
+    90deg,
+    rgba(131, 58, 180, 1) 28%,
+    rgba(253, 29, 29, 1) 45%,
+    rgba(252, 176, 69, 1) 67%
+  );
+  background: linear-gradient(
+    90deg,
+    rgba(131, 58, 180, 1) 28%,
+    rgba(253, 29, 29, 1) 45%,
+    rgba(252, 176, 69, 1) 67%
+  );
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#833ab4",endColorstr="#fcb045",GradientType=1);
 }
 
-.inner-content{
-    background-color: gray;
+.inner-content {
+  background-color: gray;
 }
 /* Display the dropdown content when hovering over the dropdown */
 .dropdown:hover .dropdown-content {
-    /* display: block; *//
-    
+  /* display: block; */
 }
 
-
 .dropdown-content .sub-menu {
-    /* display: flex;
+  /* display: flex;
     justify-content: space-between; */
-    padding: 10px;
+  padding: 10px;
 }
 
 /* Center the content inside the dropdown box */
 .Sub-menu {
-    /* display: flex; */
-    
-    
-    padding: 10px;
-}
+  /* display: flex; */
 
+  padding: 10px;
+}
 
 .Sub-menu p {
-    font-weight: bold;
-    font-size: 1.2rem;
-    color:black;
-    margin: 0;
-    text-align: center; /* Center the text horizontally */
+  font-weight: bold;
+  font-size: 1.2rem;
+  color: black;
+  margin: 0;
+  text-align: center; /* Center the text horizontally */
 }
-
-
 
 /* Styles for the custom heading class */
 .heading {
-    
-    font-weight: bold;
-    font-size: 1.2rem;
-    color: #333;
+  font-weight: bold;
+  font-size: 1.2rem;
+  color: #333;
 }
 
 /* Responsive styles */
@@ -117,53 +115,45 @@ filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#833ab4",endCo
     }
 } */
 
-
-
-
 /* VIDEO BANNER  */
 
-
 .filler-padding {
-    margin-top: 70px;
+  margin-top: 70px;
 }
 
-
 .video-section-bg {
-    background-color: rgb(180, 208, 0);
+  background-color: #ffffff;
 }
 
 .hero-text-card {
-    padding: 30px;
-    background-color: rgb(255, 255, 255);
-    border-radius: 50px;
+  padding: 30px;
+  background-color: rgb(255, 255, 255);
+  border-radius: 50px;
 }
 
-/* .hero-text-card p {
-
-} */
+.hero-text-card h1 {
+  text-transform: uppercase;
+}
 
 .video-card video {
-    height: 100%;
-    border-radius: 50px;
-    max-width: 100%;
+  height: 100%;
+  border-radius: 50px;
+  max-width: 100%;
 }
-
-
 
 .video-button-container {
-    position: absolute;
-    padding: 5px;
-    bottom: 25%;
-    left: 20%;
-    height: 50px;
-    width: 50px;
-    border: 1px solid transparent;
-    background-color: rgba(255, 255, 255, 0.573);
-    color: rgb(255, 255, 255);
-    border-radius: 50px;
+  position: absolute;
+  padding: 15px 15px 15px 15px;
+  bottom: 10%;
+  left: 30%;
+  height: 100px;
+  width: 100px;
+  border: 5px solid rgb(255, 255, 255);
+  background-color: rgba(255, 255, 255, 0.573);
+  color: rgb(255, 255, 255);
+  border-radius: 100%;
 }
 
-
 .video-button-container img {
-    height: 100%;
+  height: 100%;
 }
