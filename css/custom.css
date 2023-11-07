@@ -1,22 +1,16 @@
-
-
-
 .custom-logo {
   height: 75px;
 }
 
+.hover-imgage {
+  height: 200px;
+  width: 200px;
 
-.hover-imgage{
-    height: 200px;
-    width: 200px;
-    
-    right: 10px;
-    top: 40px;
-    border-radius: 20px;
-    position:absolute;
-    
+  right: 10px;
+  top: 40px;
+  border-radius: 20px;
+  position: absolute;
 }
-
 
 /* VIDEO BANNER  */
 
@@ -78,8 +72,8 @@
 #seekBar {
   width: 100%;
   height: 30px;
-  border-radius: 0px 0px 50px 50px ;
-  background-color: #ff0000; 
+  border-radius: 0px 0px 50px 50px;
+  background-color: #ff0000;
 }
 
 /* Style for the track (progress bar) of the seek bar */
@@ -91,9 +85,6 @@
 input[type="range" i] {
   overflow: hidden;
 }
-
-
-
 
 /*  */
 
