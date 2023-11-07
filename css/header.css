@@ -33,10 +33,14 @@ header {
 }
 
 .nav-card {
+    background-color: rgb(255, 255, 255);
     position: absolute;
-    top: 15px;
-    left: 0;
-    /* top: 30px;w */
+    border-radius: 10px;
+    padding: 20px;
+    width: 100%;
+    top: 100px;
+    left: 10%;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 0 6px 12px rgba(0, 0, 0, 0.1);
 }
 
 .nav-card li ul {
