@@ -1,0 +1,44 @@
+header {
+    background-color: rgb(238, 238, 238);
+    color: rgb(17, 17, 17);
+}
+.custom-navbar {
+    position: relative;
+    top:0;
+    left : 0;
+}
+
+.nav-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+
+}
+
+.nav-links {
+    width: 100%;
+}
+
+.nav-links ul {
+  display: flex;
+  justify-content: space-around;
+}
+
+.nav-links .nav-card {
+  display: none;
+}
+
+.nav-links li:hover .nav-card {
+  display: flex;
+}
+
+.nav-card {
+    position: absolute;
+    top: 15px;
+    left: 0;
+    /* top: 30px;w */
+}
+
+.nav-card li ul {
+  display: block;
+}
