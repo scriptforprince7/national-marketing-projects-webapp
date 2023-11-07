@@ -195,68 +195,59 @@
 
         <!--about us section start-->
         <section class="about-us-section ptb-100 gray-light-bg">
-            <div class="container">
+            <div class="container-fluid about-us-container">
                 <div class="row">
-                    <div class="col-md-6 col-lg-6">
+                    <div class="col-md-hidden col-lg-6">
                         <div class="about-us-img">
-                            <img src="img/about-us-img.svg" alt="about us" class="img-fluid about-single-img">
-                            <img src="img/about-us-img-bg.svg" alt="about bg" class="about-us-bg">
                         </div>
                     </div>
-                    <div class="col-md-6 col-lg-6">
-                        <div class="about-us-content-wrap">
-                            <strong class="color-secondary">About Us</strong>
-                            <h3>Grow Your Business With Experienced SEO Experts</h3>
+                    <div class="col-md-12 col-lg-6">
+                        <div class="about-us-content-wrap new-blur-effect">
+                            <h2 class="h3 golden-heading"> <strong>Brand Transformation with the Best Digital Marketing Agency in India</strong>
+                            </h2>
                             <span class="animate-border mb-4"></span>
-                            <p>Globally transition proactive niches without progressive processes. Objectively syndicate
-                                enterprise-wide services through timely metrics. </p>
+                            <p>We provide on-demand internet marketing services all over India for our clients. These
+                                services depend upon the company's domain, business size, professional's demand, and
+                                other factors too. </p>
                             <ul class="list-unstyled tech-feature-list">
-                                <li class="py-1"><span class="ti-control-forward mr-2 color-secondary"></span><strong>Creative</strong>
-                                    Websites Design
+                                <li class="py-1"><span class="ti-control-forward mr-2 color-secondary"></span><strong>
+                                        100% Organic</strong>
+                                    Traffic Growth
                                 </li>
-                                <li class="py-1"><span class="ti-control-forward mr-2 color-secondary"></span><strong>Accounting</strong>
-                                    Procedures Guidebook
+                                <li class="py-1"><span class="ti-control-forward mr-2 color-secondary"></span><strong>
+                                        Ethical SEO Practices</strong>
+                                    for Better ROI
                                 </li>
-                                <li class="py-1"><span class="ti-control-forward mr-2 color-secondary"></span><strong>Cost</strong>
-                                    Accounting Fundamentals
+                                <li class="py-1"><span class="ti-control-forward mr-2 color-secondary"></span><strong>
+                                        Comprehensive Online Marketing</strong>
+                                    Solutions
                                 </li>
-                                <li class="py-1"><span class="ti-control-forward mr-2 color-secondary"></span><strong>Corporate</strong>
-                                    Cash Management
+                                <li class="py-1"><span class="ti-control-forward mr-2 color-secondary"></span><strong>
+                                        Higher Visibility</strong>
+                                    Across Different Platforms
                                 </li>
-                                <li class="py-1"><span class="ti-control-forward mr-2 color-secondary"></span><strong>SEO</strong>
-                                    Optimization Services
+                                <li class="py-1"><span class="ti-control-forward mr-2 color-secondary"></span><strong>
+                                        Elevated Brand</strong>
+                                    Design &amp; Optimization
                                 </li>
-                                <li class="py-1"><span class="ti-control-forward mr-2 color-secondary"></span><strong>Company</strong>
-                                    Brand Solutions
+                                <li class="py-1"><span class="ti-control-forward mr-2 color-secondary"></span><strong>
+                                        Being strategic</strong>
+                                    We Deliver World-Class Services
                                 </li>
-                                <li class="py-1"><span class="ti-control-forward mr-2 color-secondary"></span><strong>45-Day</strong>
+                                <li class="py-1"><span class="ti-control-forward mr-2 color-secondary"></span><strong>
+                                        Best Website</strong>
+                                    development &amp; design
+                                </li>
+                                <li class="py-1"><span class="ti-control-forward mr-2 color-secondary"></span><strong>
+                                        We Awarded</strong>
+                                    by Skill India
+                                </li>
+                                <li class="py-1"><span class="ti-control-forward mr-2 color-secondary"></span><strong>
+                                        45-Day</strong>
                                     Money-Back Guarantee
                                 </li>
                             </ul>
-                            <div class="row mt-4">
-                                <div class="col-4">
-                                    <div class="counter-single">
-                                        <h2 class="mb-0 color-secondary">4566</h2>
-                                        <strong>Total Project</strong>
-                                    </div>
-                                </div>
-                                <div class="col-4">
-                                    <div class="counter-single">
-                                        <h2 class="mb-0 color-secondary">25002</h2>
-                                        <strong>Total Customer</strong>
-                                    </div>
-                                </div>
-                                <div class="col-4">
-                                    <div class="counter-single">
-                                        <h2 class="mb-0 color-secondary">4566</h2>
-                                        <strong>Total Project</strong>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="action-btns mt-4">
-                                <a href="#" class="btn secondary-solid-btn mr-3">Start Now</a>
-                                <a href="#" class="btn secondary-outline-btn">Learn More</a>
-                            </div>
+
                         </div>
                     </div>
                 </div>
@@ -266,7 +257,7 @@
 
 
         <!--call to action section start-->
-        <section class="call-to-action ptb-70" style="background: url('img/cta-bg.jpg')no-repeat center center / cover">
+        <!-- <section class="call-to-action ptb-70" style="background: url('img/cta-bg.jpg')no-repeat center center / cover">
             <div class="container">
                 <div class="row justify-content-center">
                     <div class="col-md-10 col-lg-9">
@@ -307,7 +298,7 @@
                 <img src="img/cta-1-man.svg" width="200" class="img-left" alt="cta">
                 <img src="img/cta-1-mike.svg" width="200" class="img-right" alt="cta">
             </div>
-        </section>
+        </section> -->
         <!--call to action section end-->
 
         <!--services section start-->
@@ -316,74 +307,139 @@
                 <div class="row justify-content-center">
                     <div class="col-md-8">
                         <div class="section-heading text-center mb-5">
-                            <strong class="color-secondary">Our Services</strong>
-                            <h2>What Can We Do For You</h2>
-                            <span class="animate-border mr-auto ml-auto mb-4"></span>
-                            <p class="lead">Efficiently aggregate end-to-end core competencies without maintainable ideas.
-                                Dynamically
-                                foster tactical solutions without enabled value.</p>
+                            <h2><strong class="color-secondary"> Digital Marketing Company's Services</strong></h2>
+                            <h3 class="h3 text-dark"><strong>Introducing a Diversity of Internet Marketing Services</strong></h2>
+                                <span class="animate-border mr-auto ml-auto mb-4"></span>
+                                <p class="lead">NMPI offers a diverse range of services like SEO, Content Creation, PPC,
+                                    Social Media Marketing, Website Design, etc. Our team will assist you in competing in
+                                    the online market and leading your company to the top.</p>
                         </div>
                     </div>
                 </div>
                 <div class="row">
                     <div class="col-lg-4 col-md-6 col-sm-6">
                         <div class="services-single text-center p-5 my-md-3 my-lg-3 my-sm-0 shadow-sm white-bg rounded">
-                            <span class="ti-announcement icon-lg color-secondary d-block mb-4"></span>
-                            <h5>Digital Marketing</h5>
-                            <p class="mb-0">Progressively empower business "outside the box" thinking with resource-leveling
-                                partnerships.</p>
-                            <a href="services-details.php" target="_blank" class="detail-link mt-4">Read more <span class="ti-arrow-right"></span></a>
+                            <!-- <span class="ti-announcement icon-lg color-secondary d-block mb-4"></span> -->
+                            <img src="img/nico/dm.png" class="nico" alt="Digital Marketing">
+                            <p class="h5"><strong>Digital Marketing</strong></p>
+                            <p class="mb-0">NMPI company consistently provide the most effective and innovative search
+                                solutions that help our clients win the market.</p>
+                            <a href="https://nationalmarketingprojects.com/services/digital-marketing.php" target="_blank" class="detail-link mt-4">Read more <span class="ti-arrow-right"></span></a>
                         </div>
                     </div>
                     <div class="col-lg-4 col-md-6 col-sm-6">
                         <div class="services-single text-center p-5 my-md-3 my-lg-3 my-sm-0 shadow-sm white-bg rounded">
-                            <span class="ti-light-bulb icon-lg color-secondary d-block mb-4"></span>
-                            <h5>Content Marketing</h5>
-                            <p class="mb-0">Progressively empower business "outside the box" thinking with resource-leveling
-                                partnerships.</p>
-                            <a href="services-details.php" target="_blank" class="detail-link mt-4">Read more <span class="ti-arrow-right"></span></a>
+                            <!-- <span class="ti-light-bulb icon-lg color-secondary d-block mb-4"></span> -->
+                            <img src="img/nico/pm.png" class="nico" alt="Paid Marketing">
+                            <p class="h5"><strong>Paid Marketing</strong></p>
+                            <p class="mb-0">We help you make the best marketing decisions for your business. Also, help
+                                you to achieve your sales &amp; marketing goals.</p>
+                            <a href="https://nationalmarketingprojects.com/services/ppc.php" target="_blank" class="detail-link mt-4">Read more <span class="ti-arrow-right"></span></a>
                         </div>
                     </div>
                     <div class="col-lg-4 col-md-6 col-sm-6">
                         <div class="services-single text-center p-5 my-md-3 my-lg-3 my-sm-0 shadow-sm white-bg rounded">
-                            <span class="ti-headphone-alt icon-lg color-secondary d-block mb-4"></span>
-                            <h5>Social Media Marketing</h5>
-                            <p class="mb-0">Progressively empower business "outside the box" thinking with resource-leveling
-                                partnerships.</p>
-                            <a href="services-details.php" target="_blank" class="detail-link mt-4">Read more <span class="ti-arrow-right"></span></a>
+                            <!-- <span class="ti-headphone-alt icon-lg color-secondary d-block mb-4"></span> -->
+                            <img src="img/nico/sm.png" class="nico" alt="Social Media Marketing">
+                            <p class="h5"><strong>Social Media Marketing</strong></p>
+                            <p class="mb-0">Boost your brand's growth with social digital marketing. With digital
+                                marketing company, you can grow your brand more quickly.</p>
+                            <a href="https://nationalmarketingprojects.com/services/smo.php" target="_blank" class="detail-link mt-4">Read more
+                                <span class="ti-arrow-right"></span></a>
                         </div>
                     </div>
                     <div class="col-lg-4 col-md-6 col-sm-6">
                         <div class="services-single text-center p-5 my-md-3 my-lg-3 my-sm-0 shadow-sm white-bg rounded">
-                            <span class="ti-bell icon-lg color-secondary d-block mb-4"></span>
-                            <h5>SEO Services</h5>
-                            <p class="mb-0">Progressively empower business "outside the box" thinking with resource-leveling
-                                partnerships.</p>
-                            <a href="services-details.php" target="_blank" class="detail-link mt-4">Read more <span class="ti-arrow-right"></span></a>
+                            <!-- <span class="ti-bell icon-lg color-secondary d-block mb-4"></span> -->
+                            <img src="img/nico/ss.png" class="nico" alt="SEO Services">
+                            <p class="h5"><strong>SEO Services</strong></p>
+                            <p class="mb-0">A successful Search Engine Optimization (SEO) strategy. Which in turn
+                                generates leads, sales, &amp; revenue. Heir best digital marketing compnay.</p>
+                            <a href="https://nationalmarketingprojects.com/services/seo.php" target="_blank" class="detail-link mt-4">Read more <span class="ti-arrow-right"></span></a>
                         </div>
                     </div>
                     <div class="col-lg-4 col-md-6 col-sm-6">
                         <div class="services-single text-center p-5 my-md-3 my-lg-3 my-sm-0 shadow-sm white-bg rounded">
-                            <span class="ti-briefcase icon-lg color-secondary d-block mb-4"></span>
-                            <h5>Email Marketing</h5>
-                            <p class="mb-0">Progressively empower business "outside the box" thinking with resource-leveling
-                                partnerships.</p>
-                            <a href="services-details.php" target="_blank" class="detail-link mt-4">Read more <span class="ti-arrow-right"></span></a>
+                            <!-- <span class="ti-briefcase icon-lg color-secondary d-block mb-4"></span> -->
+                            <img src="img/nico/vm.png" class="nico" alt="Video Marketing">
+                            <p class="h5"><strong>Video Marketing</strong></p>
+                            <p class="mb-0">Lead generation. Provide updates. Boost traffic. NMPI digital marketing
+                                compnay assist you in building stronger relationships with your most important
+                                audiences.</p>
+                            <a href="https://nationalmarketingprojects.com/services/youtube-video-marketing.php" target="_blank" class="detail-link mt-4">Read more <span class="ti-arrow-right"></span></a>
                         </div>
                     </div>
                     <div class="col-lg-4 col-md-6 col-sm-6">
                         <div class="services-single text-center p-5 my-md-3 my-lg-3 my-sm-0 shadow-sm white-bg rounded">
-                            <span class="ti-vector icon-lg color-secondary d-block mb-4"></span>
-                            <h5>Creative Consultancy</h5>
-                            <p class="mb-0">Progressively empower business "outside the box" thinking with resource-leveling
-                                partnerships.</p>
-                            <a href="services-details.php" target="_blank" class="detail-link mt-4">Read more <span class="ti-arrow-right"></span></a>
+                            <!-- <span class="ti-vector icon-lg color-secondary d-block mb-4"></span> -->
+                            <img src="img/nico/wd.png" class="nico" alt="Website Design">
+                            <p class="h5"><strong>Website Design</strong></p>
+                            <p class="mb-0">Identifying and solving clients' problems creatively. We at NMPI, designs
+                                search engine and user friendly website that attracts users easily.</p>
+                            <a href="https://nationalmarketingprojects.com/services/website-design-and-development.php" target="_blank" class="detail-link mt-4">Read more <span class="ti-arrow-right"></span></a>
                         </div>
                     </div>
                 </div>
             </div>
         </section>
         <!--services section end-->
+
+    <!-- call to action section -->
+    <section class="call-to-action ptb-70" style="background: url('img/nico/premium_photo-1685283297776-34aa654428a1.jpg')no-repeat center center / cover">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-md-10 col-lg-9">
+                        <div class="section-heading text-center text-white mb-5">
+                            <h2 class="text-white"><strong>Maximize your website's potential with <br> our digital marketing company</strong></h2>
+                            <p class="lead">Make sure your site is performing at its best in the digital era. Our
+                                powerful experts will check your site for any potential issues and give you
+                                recommendations on how to improve your site's performance. With our digital marketing
+                                company, you can be sure your site is always performing at its best!</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row justify-content-center">
+                    <div class="col-lg-12 col-md-12">
+                        <div class="analysis-form-wrap text-center">
+                            <!-- <div class="col-lg-4 col-md-12 p-0">
+                                <div class="form-group analysis-form-group">
+                                    <span class="analysis-form-input">
+                                        <input type="url" name="url" size="40" class="form-control"
+                                            placeholder="Type website URL">
+                                    </span>
+                                </div>
+                            </div> -->
+                            <!-- <div class="col-lg-4 col-md-12 p-0">
+                                <div class="form-group analysis-form-group analysis-form-border">
+                                    <span class="analysis-form-input">
+                                        <input type="email" name="email" size="40" class="form-control"
+                                            placeholder="Your Email">
+                                    </span>
+                                </div>
+                            </div> -->
+
+                            <div class="form-group">
+
+                                <a href="https://nationalmarketingprojects.com/contact.php">
+                                    <input type="submit" value="Contact Us" class="yellow-bg">
+                                </a>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- <div class="col-lg-4 col-md-12 p-0">
+                    <div class="form-group">
+                        <a href="https://nationalmarketingprojects.com/contact.php"> 
+                            <input type="submit" class="yellow-bg"> 
+                        </a>
+                    </div>
+                </div> -->
+    </div>
+    </section>
+    <!-- call to action section end-->
+          
 
         <!-- drop-down section additional start-->
 
