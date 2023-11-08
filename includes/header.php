@@ -9,9 +9,9 @@
                 </div>
                 <div class="nav-links">
                     <ul>
-                        <li><a href="#">Home</a></li>
-                        <li><a href="#">About</a></li>
-                        <li><a href="#">Main Services</a>
+                        <li class="main-menu-links"><a href="#">Home</a></li>
+                        <li class="main-menu-links"><a href="#">About</a></li>
+                        <li class="main-menu-links"><a href="#">Main Services</a>
                             <ul class="nav-card">
                                 <li><a href="#">Service Category 01</a>
                                     <ul>
@@ -58,10 +58,16 @@
                                         <li><a href="#">Service 25</a></li>
                                     </ul>
                                 </li>
+                                <li>
+                                    <div class="image-container">
+                                        <img src="../img/image.jpg" height="200" alt="">
+                                    </div>
+
+                                </li>
                                 <!-- Add more service categories here -->
                             </ul>
                         </li>
-                        <li><a href="#">Other Services</a>
+                        <li class="main-menu-links"><a href="#">Other Services</a>
                             <ul class="nav-card">
                                 <li><a href="#">Service Category 06</a>
                                     <ul>
@@ -108,10 +114,15 @@
                                         <li><a href="#">Service 50</a></li>
                                     </ul>
                                 </li>
+                                <li>
+                                    <div class="image-container">
+                                        <img src="../img/image.jpg" height="200" alt="">
+                                    </div>
+                                </li>
                                 <!-- Add more service categories here -->
                             </ul>
                         </li>
-                        <li><a href="#">Contact</a></li>
+                        <li class="main-menu-links"><a href="#">Contact</a></li>
                     </ul>
                 </div>
                 <div class="button">

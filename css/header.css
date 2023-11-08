@@ -1,22 +1,21 @@
 header {
-    background-color: rgb(238, 238, 238);
-    color: rgb(17, 17, 17);
+  background-color: rgba(39, 16, 189, 0.067);
+  color: rgb(17, 17, 17);
 }
 .custom-navbar {
-    position: relative;
-    top:0;
-    left : 0;
+  position: relative;
+  top: 0;
+  left: 0;
 }
 
 .nav-wrapper {
   display: flex;
   align-items: center;
   justify-content: space-around;
-
 }
 
 .nav-links {
-    width: 100%;
+  width: 100%;
 }
 
 .nav-links ul {
@@ -32,17 +31,35 @@ header {
   display: flex;
 }
 
+.nav-links .main-menu-links {
+  background-color: rgb(255, 255, 255);
+  padding: 5px 10px;
+  border-radius: 10px 10px 0px 0px;
+}
+
 .nav-card {
-    background-color: rgb(255, 255, 255);
-    position: absolute;
-    border-radius: 10px;
-    padding: 20px;
-    width: 100%;
-    top: 100px;
-    left: 10%;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 0 6px 12px rgba(0, 0, 0, 0.1);
+  background-color: rgb(255, 255, 255);
+  position: absolute;
+  border-radius: 10px;
+  padding: 20px;
+  width: 100%;
+  top: 100px;
+  left: 10%;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 0 6px 12px rgba(0, 0, 0, 0.1);
 }
 
 .nav-card li ul {
   display: block;
+}
+
+.nav-card .image-container {
+  width: 200px;
+  height: 200px;
+  overflow: hidden;
+}
+
+.nav-card .image-container img {
+  width: 100%; /* Make the image fill the container's width */
+  height: 100%; /* Maintain the 1:1 aspect ratio */
+  object-fit: cover; /* Preserve the image's aspect ratio and cover the container */
 }
