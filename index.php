@@ -199,6 +199,8 @@
                 <div class="row">
                     <div class="col-md-hidden col-lg-6">
                         <div class="about-us-img">
+                            <!-- <img src="https://nationalmarketingprojects.com/new/img/about-us-img.svg" alt="about us" class="img-fluid about-single-img"> -->
+                            <!-- <img src="https://nationalmarketingprojects.com/new/img/about-us-img-bg.svg" alt="about bg" class="about-us-bg"> -->
                         </div>
                     </div>
                     <div class="col-md-12 col-lg-6">
@@ -257,7 +259,7 @@
 
 
         <!--call to action section start-->
-        <!-- <section class="call-to-action ptb-70" style="background: url('img/cta-bg.jpg')no-repeat center center / cover">
+         <!-- <section class="call-to-action ptb-70" style="background: url('img/cta-bg.jpg')no-repeat center center / cover">
             <div class="container">
                 <div class="row justify-content-center">
                     <div class="col-md-10 col-lg-9">
@@ -359,7 +361,7 @@
                         </div>
                     </div>
                     <div class="col-lg-4 col-md-6 col-sm-6">
-                        <div class="services-single text-center p-5 my-md-3 my-lg-3 my-sm-0 shadow-sm white-bg rounded">
+                        <div class="services-single text-center p-5 my-md-3 my-lg-3 my-sm-0 shadow-sm white-bg rounded" style="padding: 45px 30px !important;">
                             <!-- <span class="ti-briefcase icon-lg color-secondary d-block mb-4"></span> -->
                             <img src="img/nico/vm.png" class="nico" alt="Video Marketing">
                             <p class="h5"><strong>Video Marketing</strong></p>
@@ -446,65 +448,65 @@
         <!-- drop-down section additional end-->
 
         <!--why choose us section start-->
-        <section class="why-choose-us ptb-100">
-            <div class="container">
-                <div class="row align-items-center justify-content-between">
-                    <div class="col-md-6 col-lg-5">
-                        <div class="why-choose-us-wrap">
-                            <strong class="color-secondary">Why Choose Us</strong>
-                            <h3>Best Consulting Every For Business</h3>
-                            <span class="animate-border mb-4"></span>
-                            <p>Globally reinvent cross-unit human capital whereas virtual catalysts for change. Assertively
-                                network accurate methods of empowerment rather than client-centered improvements.</p>
+       <section class="why-choose-us ptb-100">
+        <div class="container">
+            <div class="row align-items-center justify-content-between">
+                <div class="col-md-6 col-lg-5">
+                    <div class="why-choose-us-wrap">
+                        <strong class="color-secondary">Why Choose NMPI</strong>
+                        <h3><strong>Hire Best Digital Marketing Company That Wins Visitors</strong></h3>
+                        <span class="animate-border mb-4"></span>
+                        <p>Collaborate technical and talent with NMPI digital marketing company. Realize the power
+                            of the digital world to grow your business.</p>
 
-                            <div class="skill-content-wrap">
-                                <div class="progress-item">
-                                    <div class="progress-title">
-                                        <h6>Technical skills<span class="float-right"><span class="progress-number">80</span>%</span>
-                                        </h6>
-                                    </div>
-                                    <div class="progress">
-                                        <span style="width:80%;"><span class="progress-line"></span></span>
-                                    </div>
+                        <div class="skill-content-wrap">
+                            <div class="progress-item">
+                                <div class="progress-title">
+                                    <p class="h6"><strong>Technical skills</strong><span class="float-right"><span class="progress-number">98</span>%</span>
+                                    </p>
                                 </div>
-                                <div class="progress-item">
-                                    <div class="progress-title">
-                                        <h6>Web Consulting<span class="float-right"><span class="progress-number">85</span>%</span>
-                                        </h6>
-                                    </div>
-                                    <div class="progress">
-                                        <span style="width:85%;"><span class="progress-line"></span></span>
-                                    </div>
+                                <div class="progress">
+                                    <span style="width:98%;"><span class="progress-line"></span></span>
                                 </div>
-                                <div class="progress-item">
-                                    <div class="progress-title">
-                                        <h6>Web Consulting<span class="float-right"><span class="progress-number">85</span>%</span>
-                                        </h6>
-                                    </div>
-                                    <div class="progress">
-                                        <span style="width:85%;"><span class="progress-line"></span></span>
-                                    </div>
+                            </div>
+                            <div class="progress-item">
+                                <div class="progress-title">
+                                    <p class="h6"><strong>Content Experts</strong><span class="float-right"><span class="progress-number">90</span>%</span>
+                                    </p>
                                 </div>
-                                <div class="progress-item">
-                                    <div class="progress-title">
-                                        <h6>Technical skills<span class="float-right"><span class="progress-number">80</span>%</span>
-                                        </h6>
-                                    </div>
-                                    <div class="progress">
-                                        <span style="width:80%;"><span class="progress-line"></span></span>
-                                    </div>
+                                <div class="progress">
+                                    <span style="width:90%;"><span class="progress-line"></span></span>
+                                </div>
+                            </div>
+                            <div class="progress-item">
+                                <div class="progress-title">
+                                    <p class="h6"><strong>Web Consulting</strong><span class="float-right"><span class="progress-number">95</span>%</span>
+                                    </p>
+                                </div>
+                                <div class="progress">
+                                    <span style="width:95%;"><span class="progress-line"></span></span>
+                                </div>
+                            </div>
+                            <div class="progress-item">
+                                <div class="progress-title">
+                                    <p class="h6"><strong>SEO Experts</strong><span class="float-right"><span class="progress-number">97</span>%</span>
+                                    </p>
+                                </div>
+                                <div class="progress">
+                                    <span style="width:97%;"><span class="progress-line"></span></span>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-6 col-lg-6">
-                        <div class="image-wrap">
-                            <img src="img/why-choose-us.png" alt="why choose us" class="img-fluid">
-                        </div>
+                </div>
+                <div class="col-md-6 col-lg-6">
+                    <div class="image-wrap">
+                        <img src="https://nationalmarketingprojects.com/new/img/why-choose-us.png" alt="NMPI company" class="img-fluid">
                     </div>
                 </div>
             </div>
-        </section>
+        </div>
+    </section> 
         <!--why choose us section end-->
 
         <!--work process section start-->
@@ -514,10 +516,10 @@
                     <div class="col-md-10 col-lg-9">
                         <div class="section-heading text-center">
                             <strong class="color-secondary">Work Process</strong>
-                            <h2>We follow Few Steps</h2>
+                            <h4>Unlock the full potential of your online earnings with <br> our digital marketing company's expertise</h4>
                             <span class="animate-border mr-auto ml-auto mb-4"></span>
-                            <p class="lead">Globally reinvent cross-unit human capital whereas virtual catalysts for change. Assertively
-                                network accurate methods of empowerment rather than client-centered improvements.</p>
+                            <p class="lead">By using the best digital marketing strategies,
+                                     our Best Digital Marketing company can increase your business's online presence.</p>
                         </div>
                     </div>
                 </div>
@@ -533,8 +535,8 @@
                                     </div>
                                 </div>
                                 <div class="col-md-7">
-                                    <h5>Technical Audit</h5>
-                                    <p>Monotonectally optimize granular quality vectors vis-a-vis interdependent.</p>
+                                    <h5>Research</h5>
+                                    <p>A competitive analysis of E-market SWAT sales funnels and buyer's journey.</p>
                                 </div>
                             </div>
                             <div class="process-line-l"></div>
@@ -561,8 +563,8 @@
                                     </div>
                                 </div>
                                 <div class="col-md-7">
-                                    <h5>Technical SEO</h5>
-                                    <p>Completely synthesize one-to-one interfaces vis-a-vis client-focused alignments.</p>
+                                    <h5>Objectives</h5>
+                                    <p>Visibility of the brand leads to higher conversions through web visits.</p>
                                 </div>
                             </div>
                             <div class="process-line-r"></div>
@@ -582,8 +584,8 @@
                                     </div>
                                 </div>
                                 <div class="col-md-7">
-                                    <h5>Select Keywords</h5>
-                                    <p>Progressively streamline cooperative sources whereas stand-alone channels.</p>
+                                    <h5>Strategy</h5>
+                                    <p>E-mail marketing strategy, Promotions, Focused on social media, & SEO optimization.</p>
                                 </div>
                             </div>
                             <div class="process-line-l"></div>
@@ -610,8 +612,8 @@
                                     </div>
                                 </div>
                                 <div class="col-md-7">
-                                    <h5>Demographics</h5>
-                                    <p>Objectively underwhelm one-to-one deliverables whereas impactful solutions. </p>
+                                    <h5>Tactics</h5>
+                                    <p>A PPC landing page, Newsletter, & Blogging are all part of web optimisation. </p>
                                 </div>
                             </div>
                             <div class="process-line-r"></div>
@@ -620,7 +622,7 @@
 
 
                 </div>
-                <!-- ============ step 3 =========== -->
+                <!-- ============ step 5 =========== -->
                 <div class="row">
                     <div class="col-md-12 col-lg-5 process-width">
                         <div class="process-box process-left">
@@ -632,8 +634,8 @@
                                     </div>
                                 </div>
                                 <div class="col-md-7">
-                                    <h5>Engine Ranking</h5>
-                                    <p>Interactively seize innovative platforms vis-a-vis ubiquitous portals.</p>
+                                    <h5>Actions</h5>
+                                    <p>Keeping track of/adjusting the implementation schedule for resources technology.</p>
                                 </div>
                             </div>
                             <div class="process-line-l"></div>
